@@ -1,0 +1,1460 @@
+
+   MISCELLANEOUS :
+_______________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------
+
+1) Microprocessor
+2) Microprocessor | Externally Initiated Operations
+3) Bus organization of 8085 microprocessor
+4) Generations of computer
+5) Intel x86 evolution and main features
+6) Memory Banking
+7) Introduction to quantum computing
+8) Conventional Computing vs Quantum Computing
+9) Rethinking binary with Quantum computers
+10) Flynn’s taxonomy
+11) Clusters In Computer Organisation
+12) Parallel processing – systolic arrays
+13) 8259 PIC Microprocessor
+14) Block Diagram of 8259 Microprocessor
+15) Microprocessor | 8251 USART
+16) Evolution of Microprocessors
+17) Human – Computer interaction through the ages
+18) Computer Ports
+19) Introduction to Parallel Computing
+20) Hardware architecture (parallel computing)
+21) Computer Architecture | Multiprocessor and Multicomputer
+22) Timing diagram of INR M
+
+________________________________________________________________________________________________
+------------------------------------------------------------------------------------------------
+
+1) <<<<<<<<< MICROPROCESSOR >>>>>>>>>>
+   Introduction of Microprocessor  
+
++ Basics of Microprocessor –
++ Clock Speed of different Microprocessor:
+                                          * 16-bit Microprocessor –
+                                          * 32-bit Microprocessor –
+                                          * 64-bit Microprocessor – 
++ Types of Professor :
+                      * Complex Instruction Set Computer (CISC) –
+                      * Reduced Instruction Set Computer (RISC) –
+                      * Explicitly Parallel Instruction Computing (EPIC) – 
+________________________________________________
+ Microprocessor                                 |
+                                                |                   
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Microprocessor. 
+                                                                                        
+2) Definition of Microprocessor ?
+---------------------------------
+*
+ 
+3) What is Microprocessor About ?
+---------------------------------
+*
+*
+
+4) What does Microprocessor Do ?
+--------------------------------
+*
+*
+
+5) Advantages/Benefits of Microprocessor :
+------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Microprocessor :
+---------------------------------------------
+*
+*
+*  
+
+7) Examples of Microprocessor :
+-------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<< MICROPROCESSOR | EXTERNALLY INITIATED OPERATIONS >>>>>>>>>
+
++ Externally Initiated Operations : 
+                                   * RESET – 
+                                   * Interrupt –
+                                   * READY –
+                                   * HOLD –
+__________________________________________________
+ Microprocessor | Externally Initiated Operations |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Microprocessor | Externally Initiated Operations.
+                                                                                        
+2) Definition of Microprocessor | Externally Initiated Operations ?
+-------------------------------------------------------------------
+*
+ 
+3) What is Microprocessor | Externally Initiated Operations About ?
+-------------------------------------------------------------------
+*
+*
+
+4) What does Microprocessor | Externally Initiated Operations Do ?
+------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Microprocessor | Externally Initiated Operations :
+----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Microprocessor | Externally Initiated Operations :
+-------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Microprocessor | Externally Initiated Operations :
+----------------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<< BUS ORGANIZATION of 8085 MICROPROCESSOR >>>>>>>>
+
++ Three Types of Buses :
+                        * Address bus –
+                        * Data bus –
+                        * Control bus –
+________________________________________________________________________
+ Bus organization of 8085 microprocessor                                |
+                                                                        | 
+________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Bus organization of 8085 microprocessor
+                                                                                        
+2) Definition of Bus organization of 8085 microprocessor ?
+----------------------------------------------------------
+*
+ 
+3) What is Bus organization of 8085 microprocessor About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Bus organization of 8085 microprocessor Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Bus organization of 8085 microprocessor :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Bus organization of 8085 microprocessor :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Bus organization of 8085 microprocessor :
+--------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<< GENERATIONS of COMPUTER >>>>>>>>
+
++ Introduction: First Generation Computer
++ Examples of "First Generation Computers" :
+                                            1. ENIAC
+                                            2. EDVAC
+                                            3. UNIVAC
+                                            4. IBM-701
+                                            5. IBM-650
++ Introduction: Second Generation Computer
++ Examples of "Second Generation Computers" :
+                                             1. Honeywell 400
+                                             2. IBM 7094
+                                             3. CDC 1604
+                                             4. CDC 3600
+                                             5. UNIVAC 1108
++ Introduction: Third Generation Computer
++ Examples of "Third Generation Computers" :
+                                             1. PDP-8
+                                             2. PDP-11
+                                             3. ICL 2900
+                                             4. IBM 360
+                                             5. IBM 370
++ Introduction: Fourth Generation Computer
++ Examples of "Fourth Generation Computers" :
+                                             1. IBM 4341
+                                             2. DEC 10
+                                             3. STAR 1000
+                                             4. PUP 11
++ Introduction: Fifth Generation Computer
++ Examples of "Fifth Generation Computers" :
+                                             1. Desktop
+                                             2. Laptop
+                                             3. NoteBook
+                                             4. UltraBook
+                                             5. Chromebook
+______________________________________________________________________________
+ Generations of computer                                                      |
+                                                                              | 
+______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Generations of computer
+                                                                                        
+2) Definition of Generations of computer ?
+------------------------------------------
+*
+ 
+3) What is Generations of computer About ?
+------------------------------------------
+*
+*
+
+4) What do Generations of computer Do ?
+---------------------------------------
+*
+*
+
+5) Advantages/Benefits of Generations of computer :
+---------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Generations of computer :
+------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Generations of computer :
+----------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<< INTEL x86 EVOLUTION and MAIN FEATURES >>>>>>>
+
++ Highlights Evolution of x86 Architecture are:
+                                               * 8086 -
+                                               * 80286 -
+                                               * 80386 -
+                                               * 80386 -
+                                               * 80486
+                                               * Pentium -
+                                               * Pentium Pro -
+                                               * Pentium II -
+                                               * Pentium III -
+                                               * Pentium 4 -
+                                               * Core -
+                                               * Core 2 -
+__________________________________________________
+ Intel x86 evolution and main features            |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Intel x86 evolution and main features
+                                                                                        
+2) Definition of Intel x86 evolution and main features ?
+--------------------------------------------------------
+*
+ 
+3) What is Intel x86 evolution and main features About ?
+--------------------------------------------------------
+*
+
+4) What does Intel x86 evolution and main features Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Intel x86 evolution and main features :
+-----------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Intel x86 evolution and main features :
+--------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Intel x86 evolution and main features :
+------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<< MEMORY BANKING >>>>>>
+<<< Memory Banking in Microprocessor >>>
+____________________________________________________________
+ Memory Banking                                             |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Memory Banking
+                                                                                        
+2) Definition of Memory Banking ?
+---------------------------------
+*
+ 
+3) What is Memory Banking About ?
+---------------------------------
+*
+*
+
+4) What does Memory Banking Do ?
+--------------------------------
+*
+*
+
+5) Advantages/Benefits of Memory Banking :
+------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Memory Banking :
+------------------------------------
+*
+*
+*  
+
+7) Examples of Memory Banking :
+-------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<< INTRODUCTION to QUANTUM COMPUTING >>>>>>
+
++ Quantum mechanics
++ Superposition – 
++ Entanglement –
++ What can quantum computers do?
+_____________________________________________________
+ Introduction to quantum computing                   |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Introduction to quantum computing
+                                                                                        
+2) Definition of Introduction to quantum computing ?
+----------------------------------------------------
+*
+ 
+3) What is Introduction to quantum computing About ?
+----------------------------------------------------
+*
+*
+
+4) What does Introduction to quantum computing Do ?
+---------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Introduction to quantum computing :
+-------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Introduction to quantum computing :
+----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Introduction to quantum computing :
+--------------------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<<< CONVENTIONAL COMPUTING vs QUANTUM COMPUTING >>>>>>>>
+  <<<< Differences Between Conventional Computing & Quantum Computing >>>>
+
++ Conventional Computing
++ Quantum Computing
+_____________________________________________________
+ Conventional Computing vs Quantum Computing         |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Conventional Computing vs Quantum Computing
+                                                                                        
+2) Definition of Conventional Computing vs Quantum Computing ?
+--------------------------------------------------------------
+*
+ 
+3) What is Conventional Computing vs Quantum Computing About ?
+--------------------------------------------------------------
+*
+*
+
+4) What does Conventional Computing vs Quantum Computing Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Conventional Computing vs Quantum Computing :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Conventional Computing vs Quantum Computing :
+--------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Conventional Computing vs Quantum Computing :
+------------------------------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<<<<<<< RETHINKING BINARY with QUANTUM COMPUTERS >>>>>>>>>>
+
++ How traditional computers work –
++ Rethinking binary and transistors –
++ How quantum computers work –
++ Advantages of quantum computers –
++ Applications of quantum computing : 
+                                     * Big data
+                                     * Cryptography
+                                     * Molecular Simulations
+                                     * Protein Folding
+                                     * Drug Discovery
+                                     * Genome Sequencing
+                                     * Diagnose DNA sequence
+                                     * Catalyst Analysis
+                                     * Financial Analysis
+                                     * Climate Prediction
+                                     * Graphic searches of complicated databases
+                                     * Optimisation
+                                     * Massive Software Testing
+_________________________________________________
+ Rethinking binary with Quantum computers        |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Rethinking binary with Quantum computers
+                                                                                        
+2) Definition of Rethinking binary with Quantum computers ?
+-----------------------------------------------------------
+*
+ 
+3) What is Rethinking binary with Quantum computers About ?
+-----------------------------------------------------------
+*
+*
+
+4) What does Rethinking binary with Quantum computers Do ?
+----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Rethinking binary with Quantum computers :
+--------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Rethinking binary with Quantum computers :
+-----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Rethinking binary with Quantum computers :
+---------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<<<<<<< FLYNN's TAXONOMY >>>>>>>>>
+
++ Flynn’s classification :
+                          Single-instruction, single-data (SISD) systems –
+                          Single-instruction, multiple-data (SIMD) systems –
+                          Multiple-instruction, single-data (MISD) systems –
+                          Multiple-instruction, multiple-data (MIMD) systems –
+
+________________________________________________
+ Flynn’s taxonomy                               |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Flynn’s taxonomy
+                                                                                        
+2) Definition of Flynn’s taxonomy ?
+-----------------------------------
+*
+ 
+3) What is Flynn’s taxonomy About ?
+-----------------------------------
+*
+*
+
+4) What does Flynn’s taxonomy Do ?
+----------------------------------
+*
+*
+
+5) Advantages/Benefits of Flynn’s taxonomy :
+--------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Flynn’s taxonomy :
+-----------------------------------------------
+*
+*
+*  
+
+7) Examples of Flynn’s taxonomy :
+---------------------------------
+*
+*
+_______________________________________________________________________________
+_______________________________________________________________________________
+
+11) <<<<<<<<<< CLUSTERS in COMPUTER ORGANISATION >>>>>>>>>>
+
++ Cluster Efficient there Exist two Clusters :
+                                              * Hardware Cluster
+                                              * Software Cluster
++ Hardware Cluster
++ Software Cluster
+
++ Types of Cluster Systems:
+                           * Asymmetric Cluster:
+                           * Symmetric Cluster: 
+
++ Classification of Clusters:
+                             * Load-Balancing Cluster –
+                             * Fail-Over Clusters –
+                             * High-Availability Clusters –
+
++ Benefits:
+           * Absolute scalability –
+           * Additional scalability –
+           * High availability –
+           * Preferable price/performance –
+________________________________________________
+ Clusters In Computer Organisation              |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Clusters In Computer Organisation
+                                                                                        
+2) Definition of Clusters In Computer Organisation ?
+----------------------------------------------------
+*
+ 
+3) What is Clusters In Computer Organisation About ?
+----------------------------------------------------
+*
+*
+
+4) What does Clusters In Computer Organisation Do ?
+---------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Clusters In Computer Organisation :
+-------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Clusters In Computer Organisation :
+----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Clusters In Computer Organisation :
+--------------------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+12) <<<<<<<<< PARALLEL PROCESSING - SYSTOLIC ARRAYS >>>>>>>>
+
++ Characteristics: 
+                  * Parallel Computing -  
+                  * Pipelinability –
+                  * Synchronous evaluation –
+                  * Repeatability – 
+                  * Spatial Locality – 
+                  * Temporal Locality –
+                  * Modularity and regularity –
+
++ Advantages of Systolic array –
++ Disadvantages of Systolic array – 
+_________________________________________________
+ Parallel processing – systolic arrays           |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Parallel processing – systolic arrays
+                                                                                        
+2) Definition of Parallel processing – systolic arrays ?
+--------------------------------------------------------
+*
+ 
+3) What is Parallel processing – systolic arrays About ?
+--------------------------------------------------------
+*
+*
+
+4) What does Parallel processing – systolic arrays Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Parallel processing – systolic arrays :
+-----------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Parallel processing – systolic arrays :
+--------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Parallel processing – systolic arrays :
+------------------------------------------------------
+*
+*
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+13) <<<<<<< 8259 PIC MICROPROCESSOR >>>>>>>>
+
++ Features of 8259 PIC microprocessor :–
+
++ Pin Diagram of 8259 :–
+
++ Block Diagram of 8259 PIC microprocessor :–
+                                             * 1. Data bus buffer –
+                                             * 2. Read/Write logic –
+                                             * 3. Control logic –
+                                             * 4. Interrupt request register (IRR) –
+                                             * 5. Interrupt service register (ISR) –
+                                             * 6. Interrupt mask register (IMR) –
+                                             * 7. Priority resolver –
+                                             * 8. Cascade buffer –
+
+_______________________________________________
+  8259 PIC Microprocessor                      |
+                                               |                  
+_______________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 8259 PIC Microprocessor
+                                                                                        
+2) Definition of 8259 PIC Microprocessor ?
+------------------------------------------
+*
+ 
+3) What is 8259 PIC Microprocessor About ?
+------------------------------------------
+*
+*
+
+4) What does 8259 PIC Microprocessor Do ?
+-----------------------------------------
+*
+*
+
+5) Advantages/Benefits of 8259 PIC Microprocessor :
+---------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of 8259 PIC Microprocessor :
+------------------------------------------------------
+*
+*
+*  
+
+7) Examples of 8259 PIC Microprocessor :
+----------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+14) <<<<<<<<<< BLOCK DIAGRAM of 8259 MICROPROCESSOR >>>>>>>>>>>>>
+
++ Contains 3 Registers Commonly Known as ISR, IRR, IMR:
+                                                      * Interrupt Request Register (IRR):
+                                                      * Interrupt Service Register (ISR):
+                                                      * Interrupt Mask Register (IMR): 
+ 
++ Contains 1 Priority Resolver (PR):
+                                    * Priority Resolver (PR) 
+
++ SP/EN (low active pin):
++ Cascade Buffer:
+________________________________________________
+ Block Diagram of 8259 Microprocessor           |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Block Diagram of 8259 Microprocessor
+                                                                                        
+2) Definition of Block Diagram of 8259 Microprocessor ?
+-------------------------------------------------------
+*
+ 
+3) What is Block Diagram of 8259 Microprocessor About ?
+-------------------------------------------------------
+*
+*
+
+4) What does Block Diagram of 8259 Microprocessor Do ?
+------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Block Diagram of 8259 Microprocessor :
+----------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Block Diagram of 8259 Microprocessor :
+-------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Block Diagram of 8259 Microprocessor :
+-----------------------------------------------------
+*
+*
+_____________________________________________________________________________________________
+_____________________________________________________________________________________________
+
+15) <<<<<< MICROPROCESSOR | 8251 USART >>>>>>
+
++ Block Diagram of 8251 USART –
++ Contains the Following Blocks:
+                                * Data bus buffer –
+                                * Read/Write control logic –
+                                * Modem control (modulator/demodulator) –
+                                * Transmit buffer –
+                                * Transmit control –
+                                * Receive buffer –
+                                * Receive control –
+________________________________________________
+ Microprocessor | 8251 USART                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Microprocessor | 8251 USART 
+                                                                                        
+2) Definition of Microprocessor | 8251 USART ?
+----------------------------------------------
+*
+ 
+3) What is Microprocessor | 8251 USARTAbout ?
+---------------------------------------------
+*
+*
+
+4) What does Microprocessor | 8251 USART Do ?
+---------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Microprocessor | 8251 USART :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Microprocessor | 8251 USART :
+----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Microprocessor | 8251 USART :
+--------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+16) <<<<<<<<< EVOLUTION of MICROPROCESSORS >>>>>>>>>>
+
++ Size of the microprocessor – 4 bit:
+                                     Name :
+                                     Year of Invention :
+                                     Clock Speed :
+                                     Number of Transistors :
+                                     Inst.per sec :
+
++ Size of the microprocessor – 8 bit: 
+                                     Name :
+                                     Year of Invention :
+                                     Clock Speed :
+                                     Number of Transistors :
+                                     Inst.per sec :
+
++ Size of the microprocessor - 8 bit:
+                                     Name :
+                                     Year of Invention :
+                                     Clock Speed :
+                                     Number of Transistors :
+                                     Inst.per sec :
+
++ Size of the microprocessor - 8 bit:
+                                     Name :
+                                     Year of Invention :
+                                     Clock Speed :
+                                     Number of Transistors :
+                                     Inst.per sec :
+
++ Size of the microprocessor - 16 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec : 
+
++ Size of the microprocessor - 16 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 16 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 16 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 32 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 32 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 32 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 64 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Size of the microprocessor - 64 bit: 
+                                      Name :
+                                      Year of Invention :
+                                      Clock Speed :
+                                      Number of Transistors :
+                                      Inst.per sec :
+
++ Generations of microprocessors: 
+                                 * First-generation – 
+                                 * Second generation –
+                                 * Third generation – 
+                                 * Fourth generation –
+                                 * Fifth-generation – 
+
++ Types of microprocessors : 
+                            * Complex instruction set microprocessor – 
+                            * Reduced instruction set microprocessor –
+                            * Superscalar microprocessor – 
+                            * Application-specific integrated circuit –
+                            * Digital signal multiprocessor –
+
++ Advantages of the microprocessor :
+                                    *
+                                    *
+                                    *
+                                    * 
+                                    *
+                                    *
+
++ Disadvantages of microprocessors :
+                                    *
+                                    *
+                                    *
+                                    * 
+ 
+                            
+__________________________________________________
+ Evolution of Microprocessors                     |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Evolution of Microprocessors.
+                                                                                        
+2) Definition of Evolution of Microprocessors ?
+-----------------------------------------------
+*
+ 
+3) What is Types of Evolution of Microprocessors About ?
+--------------------------------------------------------
+*
+*
+
+4) What do Evolution of Microprocessors Do ?
+--------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Evolution of Microprocessors :
+--------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Evolution of Microprocessors :
+-----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Evolution of Microprocessors :
+---------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+17) <<<<<<<< HUMAN - COMPUTER INTERACTION THROUGH the AGES >>>>>>>>
+
++ Introduction – 
++ Early days – 
++ The present – 
++ The future -
+________________________________________________________________________
+ Human – Computer interaction through the ages                          |
+                                                                        |  
+________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Human – Computer interaction through the ages
+                                                                                        
+2) Definition of Human – Computer interaction through the ages ?
+----------------------------------------------------------------
+*
+ 
+3) What is Human – Computer interaction through the ages About ?
+----------------------------------------------------------------
+*
+*
+
+4) What does Human – Computer interaction through the ages Do ?
+---------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Human – Computer interaction through the ages :
+-------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Human – Computer interaction through the ages :
+----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Human – Computer interaction through the ages :
+--------------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+18) <<<<<<<< COMPUTER PORTS >>>>>>>>
+
++ What is a Port ? 
++ Features of Computer ports:
+                              *
+                              *
+                              *
+
++ Types of Computer Ports available in Computer System: 
+                           1. Serial ports - 
+                                            *
+                                            *
+                                            *
+                           2. Parallel ports –
+                                              *
+                                              *
+                                              *
+                                              *
+                           3. PS/2 ports –
+                                          *
+                                          *
+                                          *
+                                          *
+                           4. Universal serial bus port –
+                                                         *
+                                                         *
+                                                         *
+                                                         * 
+                           5. VGA Ports – 
+                                         *
+                                         *
+                                         *
+                                         *
+
++ More Ports Available in Computer : 
+                                    1. Modem Port: 
+                                    2. Ethernet Port:
+                                    3. Game Port:
+                                    4. Digital Video Interface (DVI) 
+                                    5. Sockets:
+______________________________________________________________________________
+ Computer Ports                                                               |
+                                                                              | ______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Ports
+                                                                                        
+2) Definition of Computer Ports ?
+---------------------------------
+*
+ 
+3) What is Computer Ports About ?
+---------------------------------
+*
+*
+
+4) What do Computer Ports Do ?
+------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Ports :
+------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Ports :
+---------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Ports :
+-------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+19) <<<<<<< INTRODUCTION to PARALLEL COMPUTING >>>>>>>
+
++ Parallel Computing :
++ Types of Parallelism: 
+                       * Bit-level parallelism –
+                       * Instruction-level parallelism –
+                       * Task Parallelism –
+                       * Data-level parallelism (DLP) –
+
++ Why parallel computing? 
+                         *
+                         *
+                         *
+                         *
+                         *
+                         *
+
++ Applications of Parallel Computing:
+                                     *
+                                     *
+                                     *
+                                     *
+
++ Limitations of Parallel Computing:
+                                    *
+                                    *
+                                    *
+                                    *
+
++ Future of Parallel Computing: 
+__________________________________________________
+ Introduction to Parallel Computing               |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Introduction to Parallel Computing
+                                                                                        
+2) Definition of Introduction to Parallel Computing ?
+-----------------------------------------------------
+*
+ 
+3) What is Introduction to Parallel Computing About ?
+-----------------------------------------------------
+*
+
+4) What do Introduction to Parallel Computing Do ?
+--------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Introduction to Parallel Computing :
+--------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Introduction to Parallel Computing :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Introduction to Parallel Computing :
+---------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+20) <<<<<<< HARDWARE ARCHITECTURE (PARALLEL COMPUTING) >>>>>>>>
+
++ Era of computing –
++ Computing –
++ Type of Computing –
+                     1.
+                     2.
+
++ Parallel computing –
+
++ Hardware architecture of parallel computing –
+  Hardware Architecture of Parallel Computing is Disturbed By the Following:
+                                      1. 
+                                      2.
+                                      3. 
+                                      4.
+
++ Hardware computing –  
+____________________________________________________________
+ Hardware architecture (parallel computing)                 |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Hardware architecture (parallel computing)
+                                                                                        
+2) Definition of Hardware architecture (parallel computing) ?
+-------------------------------------------------------------
+*
+ 
+3) What is Hardware architecture (parallel computing) About ?
+-------------------------------------------------------------
+*
+*
+
+4) What does Hardware architecture (parallel computing) Do ?
+------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Hardware architecture (parallel computing) :
+----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Hardware architecture (parallel computing) :
+----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Hardware architecture (parallel computing) :
+-----------------------------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+21) <<<<<<< COMPUTER ARCHITECTURE | MULTIPROCESSOR and MULTICOMPUTER >>>>>>>
+<<<<<< Introduction of Multiprocessor and Multicomputer >>>>>>
+
++ 1. Multiprocessor:
++ Applications of Multiprocessor :–
+                                   *
+                                   *
+                                   *
+                                   *
+
++ Benefits of using a Multiprocessor –
+                                      * Enhanced performance.
+                                      * Multiple applications.
+                                      * Multi-tasking inside an application.
+                                      * High throughput and responsiveness.
+                                      * Hardware sharing among CPUs.
+
++ 2. Multicomputer:
++ Difference between multiprocessor and Multicomputer:
+                                                      
+                   * Multiprocessor -
+                     Multicomputer -
+
+                   * Multiprocessor -
+                     Multicomputer - 
+
+                   * Multiprocessor -
+                     Multicomputer -
+
+                   * Multiprocessor -
+                     Multicomputer -
+
+                   * Multiprocessor -
+                     Multicomputer -
+                                   
+__________________________________________________________
+ Computer Architecture | Multiprocessor and Multicomputer |
+                                                          |                  
+__________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Architecture | Multiprocessor and Multicomputer
+                                                                                        
+2) Definition of Computer Architecture | Multiprocessor and Multicomputer ?
+---------------------------------------------------------------------------
+*
+ 
+3) What is Computer Architecture | Multiprocessor and Multicomputer About ?
+---------------------------------------------------------------------------
+*
+
+4) What does Computer Architecture | Multiprocessor and Multicomputer Do ?
+--------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Architecture | Multiprocessor and Multicomputer :
+------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Architecture | Multiprocessor and Multicomputer :
+---------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Architecture | Multiprocessor and Multicomputer :
+-------------------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+22) <<<<<<< TIMING DIAGRAM of INR M >>>>>>>
+
++ Problem – Draw the timing diagram of the given instruction in 8085 :
+               Example :
+                         INR M
+                         Opcode: INR
+                         Operand: M
+
++ Algorithm –
+
++ In Opcode fetch ( t1-t4 T states ) –
+                                      * 00:
+                                      * 20:
+                                      * ALE:
+                                      * RD (low active):
+                                      * WR (low active):
+                                      * IO/M (low active):
+                                      * S0 and S1:
+
++ In Memory read ( t5-t7 T states ) –
+                                      * 00:
+                                      * 20:
+                                      * ALE:
+                                      * RD (low active):
+                                      * WR (low active):
+                                      * IO/M (low active):
+                                      * S0 and S1 – S1=1 and S0=0 for Read operation.
+
++ In Memory write ( t8-t10 T states ) –
+                                      * 00:
+                                      * 20:
+                                      * ALE:
+                                      * RD (low active):
+                                      * WR (low active):
+                                      * IO/M (low active):
+                                      * S0 and S1 – S1=0 and S0=1 for write operation.
+____________________________________________________________
+ Timing diagram of INR M                                    |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Timing diagram of INR M
+                                                                                        
+2) Definition of Timing diagram of INR M ?
+------------------------------------------
+*
+ 
+3) What is Timing diagram of INR M About ?
+------------------------------------------
+*
+*
+
+4) What does Timing diagram of INR M Do ?
+-----------------------------------------
+*
+*
+
+5) Advantages/Benefits of Timing diagram of INR M :
+---------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Timing diagram of INR M :
+---------------------------------------------
+*
+*
+*  
+
+7) Examples of Timing diagram of INR M :
+----------------------------------------
+*
+*
+______________________________________________________________________________________________
+______________________________________________________________________________________________

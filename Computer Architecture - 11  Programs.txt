@@ -1,0 +1,339 @@
+
+    PROGRAMS :
+_________________________________________________________________________________________________
+-------------------------------------------------------------------------------------------------
+
+1) Program for Binary To Decimal Conversion
+2) Program for Decimal to Binary Conversion
+3) Program for decimal to octal conversion
+4) Program for octal to decimal conversion
+5) Program for hexadecimal to decimal
+_________________________________________________________________________________________________
+
+
+1) <<<<<<<<< PROGRAM for BINARY to DECIMAL CONVERSION >>>>>>>>>>
+  Given a binary number into an equivalent as Input,
+  We Need to Write a Program to Convert the given binary number into an equivalent
+  decimal number.
+
++ Examples :
+             Input : 111
+             Output : 7
+
+             Input : 1010
+             Output : 10
+
+             Input: 100001
+             Output: 33
+
++ Binary Number To Decimal Number
+
+________________________________________________
+ Program for Binary To Decimal Conversion       |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Program for Binary To Decimal Conversion 
+                                                                                        
+2) Definition of Program for Binary To Decimal Conversion ?
+-----------------------------------------------------------
+*
+ 
+3) What is Program for Binary To Decimal Conversion About ?
+-----------------------------------------------------------
+*
+*
+
+4) What does Program for Binary To Decimal Conversion Do ?
+----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Program for Binary To Decimal Conversion :
+--------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Program for Binary To Decimal Conversion :
+-----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Program for Binary To Decimal Conversion :
+---------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<< PROGRAM for DECIMAL to BINARY CONVERSION >>>>>>>>>
+  Given a Decimal number as Input, 
+ We need to Write a Program to Convert the Given Decimal Number
+ into an Equivalent Binary Number.
++ Examples: 
+           Input : 7
+           Output : 111
+
+           Input : 10
+           Output : 1010
+
+           Input: 33
+           Output: 100001
+
++ For Example:
+  If the decimal number is 10.
+  Step 1: Remainder when 10 is divided by 2 is zero. Therefore, arr[0] = 0. 
+  Step 2: Divide 10 by 2. New number is 10/2 = 5. 
+  Step 3: Remainder when 5 is divided by 2 is 1. Therefore, arr[1] = 1. 
+  Step 4: Divide 5 by 2. New number is 5/2 = 2. 
+  Step 5: Remainder when 2 is divided by 2 is zero. Therefore, arr[2] = 0. 
+  Step 6: Divide 2 by 2. New number is 2/2 = 1. 
+  Step 7: Remainder when 1 is divided by 2 is 1. Therefore, arr[3] = 1. 
+  Step 8: Divide 1 by 2. New number is 1/2 = 0. 
+  Step 9: Since number becomes = 0. Print the array in reverse order. 
+  Therefore the equivalent binary number is 1010.
+
++ The Diagram shows an example of Converting the Decimal Number 17,
+  into an equivalent binary number.
+       
+__________________________________________________
+ Program for Decimal to Binary Conversion         |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Program for Decimal to Binary Conversion.
+                                                                                        
+2) Definition of Program for Decimal to Binary Conversion ?
+-----------------------------------------------------------
+*
+ 
+3) What is Program for Decimal to Binary Conversion About ?
+-----------------------------------------------------------
+*
+*
+
+4) What do Program for Decimal to Binary Conversion Do ?
+--------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Program for Decimal to Binary Conversion :
+--------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Program for Decimal to Binary Conversion :
+-----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Program for Decimal to Binary Conversion :
+---------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<< PROGRAM for DECIMAL to OCTAL CONVERSION >>>>>>>>
+ + Given a Decimal Number as Input, 
+   We need to Write a Program to Convert the given decimal number into
+   an equivalent octal number.
+   For Example - convert the number with base value 10 into base value 8.
+
++ Examples: 
+           Input : 16
+           Output: 20
+
+           Input : 10
+           Output: 12
+
+           Input : 33
+           Output: 41
+
++ Algorithm: 
+            Store the remainder when the number is divided by 8 in an array.
+            Divide the number by 8 now
+            Repeat the above two steps until the number is not equal to 0.
+            Print the array in reverse order now. 
+
+For Example:
+            If the given decimal number is 16. 
+
+Step 1: Remainder when 16 is divided by 8 is 0. Therefore, arr[0] = 0. 
+Step 2: Divide 16 by 8. New number is 16/8 = 2. 
+Step 3: Remainder, when 2 is divided by 8, is 2. Therefore, arr[1] = 2. 
+Step 4: Divide 2 by 8. New number is 2/8 = 0. 
+Step 5: Since number becomes = 0. 
+________________________________________________________________________
+ Program for decimal to octal conversion                                |
+                                                                        | 
+________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Program for decimal to octal conversion
+                                                                                        
+2) Definition of Program for decimal to octal conversion ?
+----------------------------------------------------------
+*
+ 
+3) What is Program for decimal to octal conversion About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Program for decimal to octal conversion Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Program for decimal to octal conversion :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Program for decimal to octal conversion :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Program for decimal to octal conversion :
+--------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<< PROGRAM for OCTAL to DECIMAL CONVERSION >>>>>>>>
+   Given an octal number as input, 
+   We need to Write a Program to Convert the given octal number 
+   into equivalent decimal number.
+
++ Examples:
+           Input : 67
+           Output: 55
+
+           Input : 512
+           Output: 330
+
+           Input : 123
+           Output: 83
+
+The idea is to extract the digits of a given octal number starting from
+the rightmost digit and keep a variable dec_value.
+______________________________________________________________________________
+ Program for octal to decimal conversion                                      |
+                                                                              |                  
+______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Program for octal to decimal conversion
+                                                                                        
+2) Definition of Program for octal to decimal conversion ?
+----------------------------------------------------------
+*
+ 
+3) What is Program for octal to decimal conversion About ?
+----------------------------------------------------------
+*
+*
+
+4) What do Program for octal to decimal conversion Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Program for octal to decimal conversion :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Program for octal to decimal conversion :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Program for octal to decimal conversion :
+--------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<< PROGRAM for HEXAMICAL to DECIMAL >>>>>>
+  Given a hexadecimal number as input, 
+  we need to write a program to convert the given hexadecimal number
+  into an equivalent decimal number. 
+
++ Examples:
+            Input : 67
+            Output: 103
+
+            Input : 512
+            Output: 1298
+
+            Input : 123
+            Output: 291
+__________________________________________________
+ Program for hexadecimal to decimal               |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Program for hexadecimal to decimal
+                                                                                        
+2) Definition of Program for hexadecimal to decimal ?
+-----------------------------------------------------
+*
+ 
+3) What is Program for hexadecimal to decimal About ?
+-----------------------------------------------------
+*
+
+4) What do Program for hexadecimal to decimal Do ?
+--------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Program for hexadecimal to decimal :
+--------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Program for hexadecimal to decimal :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Program for hexadecimal to decimal :
+---------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+

@@ -1,0 +1,88 @@
+
+
+   IEEE NUMBER STANDARDS :
+____________________________________________________________________________________________
+--------------------------------------------------------------------------------------------
+
+1) IEEE Standard 754 Floating Point Numbers 
+____________________________________________________________________________________________
+
+
+1) <<<<<< IEEE STANDARD 754 FLOATING POINT NUMBERS >>>>>>>
+
++  IEEE 754 is the Most Efficient to Represent floating number,
+   Although there are several other ways to Represent floating number,
+
++ IEEE 754 has 3 basic components:
+                                  * The Sign of Mantissa –
+                                  * The Biased exponent –
+                                  * The Normalised Mantissa –
+
+- IEEE 754 numbers are divided into two based on the above three components:
+         * Single Precision -
+          IEEE 754 Floating-Point Standard :
+                                    
+  <----------------------------32 Bits ---------------->
+   ________   ____________     ________________________
+  |  Sign  | |  Exponent  |   |         Mantissa       |
+  |________| |____________|   |________________________|
+  < 1 Bit >  <-- 8 Bits -->    <------- 23 Bits ------->
+
+        * Double Precision -
+        IEEE 754 Floating-Point Standard :
+
+  <----------------------------64 Bits ---------------->
+   ________   ____________     ________________________
+  |  Sign  | |  Exponent  |   |         Mantissa       |
+  |________| |____________|   |________________________|
+  < 1 Bit >   <- 11 Bits ->    <------- 52 Bits ------->
+
++ Special Values: IEEE has reserved some values that can ambiguity.
+
+   * Zero –
+   * Denormalised –
+   * Infinity –
+   * Not A Number (NAN) –
+________________________________________________
+ IEEE Standard 754 Floating Point Numbers       |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Introduction to memory and memory units 
+                                                                                        
+2) Definition of Introduction to memory and memory units ?
+----------------------------------------------------------
+*
+ 
+3) What is Introduction to memory and memory units About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Introduction to memory and memory units Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Introduction to memory and memory units :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Introduction to memory and memory units :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Introduction to memory and memory units :
+--------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
