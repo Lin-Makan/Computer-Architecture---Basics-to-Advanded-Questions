@@ -1,0 +1,192 @@
+
+* Basic Computer Instructions          
+* Instruction Design and Format
+* Computer Arithmetic
+* Microprogrammed Control
+* Memory Organization
+* Input and Output Systems
+* Pipelining
+* Miscellaneous 
+* Programs
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+ BASIC COMPUTER INSTRUCTIONS :
+1) A Simple understanding of Computer
+2) Issues In Computer Design
+3) Computer System Level Hierarchy
+4) Computer Architecture and Computer Organization
+5) Basic Computer Instructions 
+6) Timing Diagram of MOV Instruction 
+7) Assembly language and High level language 
+8) Addressing Modes
+9) Memory based Vs Register based addressing modes
+10) Von Neumann Architecture
+11) Harvard Architecture
+12) Interaction of A Program
+13) Simplified Instructional Computer (SIC)
+14) Instruction Set used in simplified instruction Computer (SIC)
+15) Instruction Set used in SIC/XE
+16) RISC and CISC
+17) RISC and CISC | Set 2
+18) Vector Processor Classification
+19) Essential Registers for Instruction Execution
+20) Single Accumulator based CPU Organization 
+21) Stack based CPU Organization 
+22) General Register based CPU Organization 
+23) Data Transfer Instructions in AVR Microcontroller
+24) Arithmetic instructions in AVR Microcontroller
+25) Conditional Branch Instructions in AVR Microcontroller
+26) CALL Instructions and Stack in AVR Microcontroller
+27) Branch Instructions in AVR Microcontroller
+28) Logical Instructions in AVR Microcontroller
+29) Data Manipulation Instructions 
+30) Machine Control Instruction
+31) Very Long Instruction Word (VLIW) Architecture 
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+    INSTRUCTION DESIGN AND FORMAT :
+1) Different Instruction Cycles
+2) Essential Registers for Instruction Execution
+3) Machine Instructions
+4) Instruction Formats (Zero, One, Two and Three Address Instruction)
+5) 2-address instruction and 1-address instructions
+6) 3-address instruction and 0-address instruction
+7) 3-address instruction and 2-address instructions
+8) Register content and Flag status after Instructions
+9) Debugging a machine level program
+10) Vector Instruction Format 
+11) Vector instruction types
+12) Branch Prediction in Pentium
+13) Instruction Word Size
+14) >>Problem Solving on Instruction Format
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+    COMPUTER ARITHMETIC :
+
+1) Computer Arithmetic | ALU and Data Path
+2) Computer Arithmetic | Set 1
+3) Computer Arithmetic | Set 2
+4) Difference between 1’s complement and 2’s complement
+5) Restoring Division Algorithm For Unsigned Integer
+6) Non-Restoring Division For Unsigned Integer
+7) Booth’s Algorithm
+8) Overflow in Arithmetic Addition
+9) How the negative numbers are stored in memory?
+10) Conventional Computing vs Quantum Computing
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+   MICROPROGRAMMED CONTROL :
+
+1) Micro-Operation
+2) Microarchitecture and Instruction Set Architecture
+3) Types of Program Control Instructions
+4) Difference between CALL and JUMP instructions
+5) Hardwired v/s Micro-programmed Control Unit
+6) Implementation of Micro Instructions Sequencer
+7) Performance of Computer
+8) Control Unit and design
+9) Horizontal micro-programmed Vs Vertical micro-programmed control unit
+10) Camparisons between Hardwired Vs Micro-programmed Control unit
+11) Computer Organization | Subprogram and its characteristics
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+   MEMORY ORGANIZATION :
+
+1) Introduction to memory and memory units
+2) Memory Hierarchy Design and its Characteristics
+3) Difference between Byte Addressable Memory and Word Addressable Memory
+4) Difference between Simultaneous and Hierarchical Access Memory Organisations
+5) Register Allocation
+6) Cache Memory
+7) Cache Organization | Set 1 (Introduction)
+8) Multilevel Cache Organisation
+9) Locality and Cache friendly code
+10) Locality of Reference and Cache Operation
+11) Amdahl’s law and its proof
+12) Subroutine, Subroutine nesting and Stack memory
+13) RAM vs ROM
+14) What’s difference between CPU Cache and TLB?
+15) Different Types of RAM
+16) Types of computer memory (RAM and ROM)
+17) Secondary memory – Hard disk drive
+18) Introduction to solid-state drive (SSD)
+19) Read and Write operations in memory
+20) 2D and 2.5D Memory organization
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+     INPUT and OUTPUT SYSTEMS :
+
+1) Priority Interrupts | (S/W Polling and Daisy Chaining)
+2) I/O Interface (Interrupt and DMA Mode)
+3) Direct memory access with DMA controller 8257/8237
+4) Asynchronous input output synchronization
+5) Programmable peripheral interface 8255
+6) Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number
+7) 8255 (programmable peripheral interface)
+8) Microcomputer system
+9) Working of 8085-based Single board microcomputer
+10) Interface 8254 PIT with 8085 microprocessor
+11) Synchronous Data Transfer
+12) Input-Output Processor
+13) MPU Communication
+14) Memory mapped I/O and Isolated I/O
+15) BUS Arbitration
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+    PIPELINING :
+
+1) Instruction Level Parallelism
+2) Execution, Stages and Throughput
+3) Types and Stalling
+4) Dependencies and Data Hazard
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+    IEEE NUMBER STANDARDS :
+
+1) IEEE Standard 754 Floating Point Numbers
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+    MISCELLANEOUS :
+
+1) Microprocessor
+2) Microprocessor | Externally Initiated Operations
+3) Bus organization of 8085 microprocessor
+4) Generations of computer
+5) Intel x86 evolution and main features
+6) Memory Banking
+7) Introduction to quantum computing
+8) Conventional Computing vs Quantum Computing
+9) Rethinking binary with Quantum computers
+10) Flynn’s taxonomy
+11) Clusters In Computer Organisation
+12) Parallel processing – systolic arrays
+13) 8259 PIC Microprocessor
+14) Block Diagram of 8259 Microprocessor
+15) Microprocessor | 8251 USART
+16) Evolution of Microprocessors
+17) Human – Computer interaction through the ages
+18) Computer Ports
+19) Introduction to Parallel Computing
+20) Hardware architecture (parallel computing)
+21) Computer Architecture | Multiprocessor and Multicomputer
+22) Timing diagram of INR M
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+     PROGRAMS :
+
+1) Program for Binary To Decimal Conversion
+2) Program for Decimal to Binary Conversion
+3) Program for decimal to octal conversion
+4) Program for octal to decimal conversion
+5) Program for hexadecimal to decimal
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+QUICK LINKS :
+
+1) ‘Quizzes’ on Computer Organization and Architecture !
+2) ‘Practice Problems’ on Computer Organization and Architecture !
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------

@@ -1,0 +1,517 @@
+
+   COMPUTER ARITHMETIC :
+____________________________________________________________________________________________
+--------------------------------------------------------------------------------------------
+
+1) Computer Arithmetic | ALU and Data Path
+2) Computer Arithmetic | Set 1
+3) Computer Arithmetic | Set 2
+4) Difference between 1’s complement and 2’s complement
+5) Restoring Division Algorithm For Unsigned Integer
+6) Non-Restoring Division For Unsigned Integer
+7) Booth’s Algorithm
+8) Overflow in Arithmetic Addition
+9) How the negative numbers are stored in memory?
+10) Conventional Computing vs Quantum Computing
+____________________________________________________________________________________________
+
+1) <<<<<<<<<< COMPUTER ARITHMETIC | ALU and DATA PATH >>>>>>>>>>
+              INTRODUCTION of ALU and DATA PATH
+
++ Types of the bus are:
+                       1. Address bus :
+                       2. Data bus :
+                       3. Control bus :
+                       4. Power bus :
+
++ Program Counter –
++ Instruction Register –
++ Memory Address Register –
++ Memory Data Register – 
++ General Purpose Register –
+
++ One Bus organization –
++ Two Bus organizations – 
++ Three Bus organization –
+
++ Main Advantages of Multiple Bus Organizations in A Single Bus :
+________________________________________________
+ Computer Arithmetic | ALU and Data Path        |
+                                                |                   
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Computer Arithmetic | ALU and Data Path
+                                                                                        
+2) Definition of Computer Arithmetic | ALU and Data Path ?
+----------------------------------------------------------
+*
+ 
+3) What is Computer Arithmetic | ALU and Data Path About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Computer Arithmetic | ALU and Data Path Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Arithmetic | ALU and Data Path :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Arithmetic | ALU and Data Path :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Arithmetic | ALU and Data Path :
+--------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<<<< COMPUTER ARITHMETIC | SET 1 >>>>>>>>>>>>
+
++ Negative Number Representation :
+                                  Sign Magnitude 
+                                  2’s complement method
+
++ Floating point representation of numbers :
+                                            32-bit representation floating point numbers IEEE standard
+
++ Normalization : 
+                 64-bit representation floating point numbers IEEE standard
+
++ Converting floating point into decimal                 
+________________________________________________
+ Computer Arithmetic | Set 1                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Arithmetic | Set 1.
+                                                                                        
+2) Definition of Computer Arithmetic | Set 1 ?
+----------------------------------------------
+*
+ 
+3) What is Computer Arithmetic | Set 1 About ?
+----------------------------------------------
+*
+*
+
+4) What do Computer Arithmetic | Set 1 Do ?
+-------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Arithmetic | Set 1 :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Arithmetic | Set 1 :
+----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Arithmetic | Set 1 :
+--------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<<<<<<<< COMPUTER ARITHMETIC | SET 2 >>>>>>>>>>>>>>>
+
++ FLOATING POINT ADDITION AND SUBTRACTION :
+                                           FLOATING POINT ADDITION
+                                           FLOATING POINT SUBTRACTION 
+________________________________________________
+ Computer Arithmetic | Set 2                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Arithmetic | Set 2
+                                                                                        
+2) Definition of Computer Arithmetic | Set 2 ?
+----------------------------------------------
+*
+ 
+3) What is Computer Arithmetic | Set 2 About ?
+----------------------------------------------
+*
+*
+
+4) What does Computer Arithmetic | Set 2 Do ?
+---------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Arithmetic | Set 2 :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Arithmetic | Set 2 :
+----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Arithmetic | Set 2 :
+--------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<<< DIFFERENCE BETWEEN 1's COMPLEMENT and 2's >>>>>>>>>>
+
++ 1’s complement
++ 2’s complement
+____________________________________________________________________
+ Difference between 1’s complement and 2’s complement               |
+                                                                    |                 
+____________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Difference between 1’s complement and 2’s complement
+                                                                                        
+2) Definition of Difference between 1’s complement and 2’s complement ?
+-----------------------------------------------------------------------
+*
+ 
+3) What is Difference between 1’s complement and 2’s complement About ?
+-----------------------------------------------------------------------
+*
+*
+
+4) What does Difference between 1’s complement and 2’s complement Do ?
+----------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Difference between 1’s complement and 2’s complement :
+--------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Difference between 1’s complement and 2’s complement :
+-----------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Difference between 1’s complement and 2’s complement :
+---------------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<<<< RESTORING DIVISION ALGORITHM for UNSIGNED INTEGER >>>>>>>>>
+___________________________________________________
+ Restoring Division Algorithm For Unsigned Integer |
+                                                   |                  
+___________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Restoring Division Algorithm For Unsigned Integer
+                                                                                        
+2) Definition of Restoring Division Algorithm For Unsigned Integer ?
+--------------------------------------------------------------------
+*
+ 
+3) What is Restoring Division Algorithm For Unsigned Integer About ?
+--------------------------------------------------------------------
+*
+
+4) What do Restoring Division Algorithm For Unsigned Integer Do ?
+-----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Restoring Division Algorithm For Unsigned Integer :
+-----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Restoring Division Algorithm For Unsigned Integer :
+--------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Restoring Division Algorithm For Unsigned Integer :
+------------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<<<<<<<<<<<< NON-RESTORING DIVISION for UNSIGNED INTEGER >>>>>>>>>>>>>>>>>
+____________________________________________________________
+ Non-Restoring Division For Unsigned Integer                |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Non-Restoring Division For Unsigned Integer
+                                                                                        
+2) Definition of Non-Restoring Division For Unsigned Integer ?
+--------------------------------------------------------------
+*
+ 
+3) What is Non-Restoring Division For Unsigned Integer About ?
+--------------------------------------------------------------
+*
+*
+
+4) What does Non-Restoring Division For Unsigned Integer Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Non-Restoring Division For Unsigned Integer :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Non-Restoring Division For Unsigned Integer :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Non-Restoring Division For Unsigned Integer :
+------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<<<<<<<<<<< BOOTH's ALGORITHM >>>>>>>>>>>>>>>>>
+                    COMPUTER ORGANIZATION | Booth's Algorithm
+
++ Hardware Implementation of Booths Algorithm –
++ Booth’s Algorithm Flowchart –
+
++ Best Case and Worst Case Occurrence:
++ GATE Practice Questions – 
+                           GATE IT 2008 | Question 40
+                           GATE IT 2006 | Question 38
+                           GATE IT 2005 | Question 8
+                           GATE CS 1996 | Question 23
+_____________________________________________________
+ Booth’s Algorithm                                   |
+                                                     |                   
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Booth’s Algorithm
+                                                                                        
+2) Definition of Booth’s Algorithm ?
+------------------------------------
+*
+ 
+3) What is Booth’s Algorithm About ?
+------------------------------------
+*
+*
+
+4) What does Booth’s Algorithm Do ?
+-----------------------------------
+*
+*
+
+5) Advantages/Benefits of Booth’s Algorithm :
+---------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Booth’s Algorithm :
+------------------------------------------------
+*
+*
+*  
+
+7) Examples of Booth’s Algorithm :
+----------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<<<< OVERFLOW in ARITHMETIC ADDITION >>>>>>>>>>>
+             OVERFLOW in ARITHMETIC ADDITION in BINARY NUMBER SYSTEM 
+
++ Overflow Detection –
+_____________________________________________________
+ Overflow in Arithmetic Addition                     |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Overflow in Arithmetic Addition
+                                                                                        
+2) Definition of Overflow in Arithmetic Addition ?
+--------------------------------------------------
+*
+ 
+3) What is Overflow in Arithmetic Addition About ?
+--------------------------------------------------
+*
+*
+
+4) What does Overflow in Arithmetic Addition Do ?
+-------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Overflow in Arithmetic Addition :
+-----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Overflow in Arithmetic Addition :
+--------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Overflow in Arithmetic Addition :
+------------------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<<< HOW the NEGATIVE NUMBERS are STORED in MEMORY ? >>>>>>>
+_________________________________________________
+ How the negative numbers are stored in memory ? |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* How the negative numbers are stored in memory ?
+                                                                                        
+2) Definition of How the negative numbers are stored in memory ?
+----------------------------------------------------------------
+*
+ 
+3) What is How the negative numbers are stored in memory About ?
+----------------------------------------------------------------
+*
+*
+
+4) What does How the negative numbers are stored in memory Do ?
+---------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of How the negative numbers are stored in memory :
+-------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of How the negative numbers are stored in memory :
+----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of How the negative numbers are stored in memory :
+--------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<<<<< CONVENTIONAL COMPUTNG vs QUANTUM COMPUTING >>>>>>>>>>>>>>>>>
+
++ Difference between Conventional Computing & Quantum Computing :
+________________________________________________
+ Conventional Computing vs Quantum Computing    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Conventional Computing vs Quantum Computing
+                                                                                        
+2) Definition of Conventional Computing vs Quantum Computing ?
+--------------------------------------------------------------
+*
+ 
+3) What is Conventional Computing vs Quantum Computing About ?
+--------------------------------------------------------------
+*
+*
+
+4) What does Conventional Computing vs Quantum Computing Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Conventional Computing vs Quantum Computing :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Conventional Computing vs Quantum Computing :
+--------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Conventional Computing vs Quantum Computing :
+------------------------------------------------------------
+*
+*
+_______________________________________________________________________________
+_______________________________________________________________________________
+
+

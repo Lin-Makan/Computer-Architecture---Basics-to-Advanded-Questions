@@ -1,0 +1,855 @@
+
+     INPUT and OUTPUT SYSTEMS :
+____________________________________________________________________________________________
+--------------------------------------------------------------------------------------------
+
+1) Priority Interrupts | (S/W Polling and Daisy Chaining)
+2) I/O Interface (Interrupt and DMA Mode)
+3) Direct memory access with DMA controller 8257/8237
+4) Asynchronous input output synchronization
+5) Programmable peripheral interface 8255
+6) Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number
+7) 8255 (programmable peripheral interface)
+8) Microcomputer system
+9) Working of 8085-based Single board microcomputer
+10) Interface 8254 PIT with 8085 microprocessor
+11) Synchronous Data Transfer
+12) Input-Output Processor
+13) MPU Communication
+14) Memory mapped I/O and Isolated I/O
+15) BUS Arbitration
+________________________________________________________________________________________________
+
+1) <<<<<<< PRIORITY INTERRUPTS | (S/W POLLING and DAISY CHAINING) >>>>>>>
+
++ SOFTWARE METHOD – POLLING
++ HARDWARE METHOD – DAISY CHAINING
+________________________________________________________
+ Priority Interrupts | (S/W Polling and Daisy Chaining) |
+                                                        |                  
+________________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Priority Interrupts | (S/W Polling and Daisy Chaining) 
+                                                                                        
+2) Definition of Priority Interrupts | (S/W Polling and Daisy Chaining) ?
+-------------------------------------------------------------------------
+*
+ 
+3) What is Priority Interrupts | (S/W Polling and Daisy Chaining) About ?
+-------------------------------------------------------------------------
+*
+*
+
+4) What does Priority Interrupts | (S/W Polling and Daisy Chaining) Do ?
+------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Priority Interrupts | (S/W Polling and Daisy Chaining) :
+----------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Priority Interrupts | (S/W Polling and Daisy Chaining) :
+-------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Priority Interrupts | (S/W Polling and Daisy Chaining) :
+-----------------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<< I/O INTERFACE (INTERRUPT and DMA MODE) >>>>>>>>
+
++ Mode of Transfer:
+                   1. Programmed I/O.
+                   2. Interrupt- initiated I/O.
+                   3. Direct memory access( DMA).
+
+     * 1. Programmed I/O : 
+                          Example of Programmed I/O
+
+     * 2. Interrupt-initiated I/O :
+
+     * 3. Direct Memory Access :
+                                Bus Request :
+                                Bus Grant :
+                                Types of DMA transfer using DMA controller:
+                                             - Burst Transfer :
+                                             - Cyclic Stealing :
+                                             - Interleaved mode :
+__________________________________________________
+ I/O Interface (Interrupt and DMA Mode)           |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* I/O Interface (Interrupt and DMA Mode).
+                                                                                        
+2) Definition of I/O Interface (Interrupt and DMA Mode) ?
+---------------------------------------------------------
+*
+ 
+3) What is I/O Interface (Interrupt and DMA Mode) About ?
+---------------------------------------------------------
+*
+*
+
+4) What does I/O Interface (Interrupt and DMA Mode) Do ?
+--------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of I/O Interface (Interrupt and DMA Mode) :
+------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of I/O Interface (Interrupt and DMA Mode) :
+---------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of I/O Interface (Interrupt and DMA Mode) :
+-------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<< DIRECT MEMORY ACCESS with DMA CONTROLLER 8257/8237 >>>>>>>
+
+
+* HOLD – hold signal 
+ 
+* HLDA – hold acknowledgment 
+ 
+* DREQ – DMA request 
+ 
+* DACK – DMA acknowledgment
+
++ If A Floppy Drive is Connected at input-output port to Transfer Data to Memory :
+                    * Step-1 :
+                    * Step-2 :
+                    * Step-3 :
+                    * Step-4 :
+                    * Step-5 :
++ Modes of DMAC: 
+                * 1. Single Mode –
+                * 2. Cascade Mode –
+________________________________________________________________________
+ Direct memory access with DMA controller 8257/8237                     |
+                                                                        |             ________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Direct memory access with DMA controller 8257/8237
+                                                                                        
+2) Definition of Direct memory access with DMA controller 8257/8237 ?
+---------------------------------------------------------------------
+*
+ 
+3) What is Direct memory access with DMA controller 8257/8237 About ?
+---------------------------------------------------------------------
+*
+*
+
+4) What does Direct memory access with DMA controller 8257/8237 Do ?
+--------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Direct memory access with DMA controller 8257/8237 :
+------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Direct memory access with DMA controller 8257/8237 :
+---------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Direct memory access with DMA controller 8257/8237 :
+-------------------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<< ASYNCHRONOUS INPUT OUTPUT SYNCHRONIZATION >>>>>>>>>
+
++ Problem faced in Asynchronous Input Output Synchronization –
+                                                      1. Strobe
+                                                      2. Handshaking
+* 1. Strobe Mechanism:
+                      Source initiated Strobe –
+                      Destination initiated signal –
+
++ Problems faced in Strobe based Asynchronous Input Output –
+                                           2. Handshaking Mechanism:
+                                                      Source initiated Handshaking –
+                                                               * DATA VALID:
+                                                               * DATA ACCEPTED:
+                                                 Destination initiated Handshaking –
+                                                              * REQUEST FOR DATA:
+                                                              * DATA VALID:
+______________________________________________________________________________
+ Asynchronous input output synchronization                                    |
+                                                                              |       
+______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Asynchronous input output synchronization
+                                                                                        
+2) Definition of Asynchronous input output synchronization ?
+------------------------------------------------------------
+*
+ 
+3) What is Asynchronous input output synchronization About ?
+------------------------------------------------------------
+*
+*
+
+4) What does Asynchronous input output synchronization Do ?
+-----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Asynchronous input output synchronization :
+---------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Asynchronous input output synchronization :
+------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Asynchronous input output synchronization :
+----------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<< PROGRAMMABLE PERIPHERAL INTERFACE 8255 >>>>>>>
+
++ Block diagram –
++ Pin diagram –
+               PA0 – PA7 – Pins of port A
+               PB0 – PB7 – Pins of port B
+               PC0 – PC7 – Pins of port C
+               D0 – D7 – Data pins for the transfer of data
+               RESET – Reset input
+               RD’ – Read input
+               WR’ – Write input
+               CS’ – Chip select
+               A1 and A0 – Address pins
+
++ Operating modes –
+                   1. Bit set reset (BSR) mode –
+                   2. Input-Output mode –
+                                         * Mode 0 –
+                                         * Mode 1 –
+                                         * Mode 2 –
+__________________________________________________
+ Programmable peripheral interface 8255           |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Programmable peripheral interface 8255
+                                                                                        
+2) Definition of Programmable peripheral interface 8255 ?
+---------------------------------------------------------
+*
+ 
+3) What is Programmable peripheral interface 8255 About ?
+---------------------------------------------------------
+*
+
+4) What does Programmable peripheral interface 8255 Do ?
+--------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Programmable peripheral interface 8255 :
+------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Programmable peripheral interface 8255 :
+---------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Programmable peripheral interface 8255 :
+-------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<< INTERFACE 8255 with 8085 MICROPROCESSOR for 1’s and 2’s COMPLEMENT of a NUMBER >>>>>>
+
++ Problem –
++ Example –
+            D7	D6  D5	D4  D3	D2  D1	D0
+
+            1    0   0   0   0   0   0   0
+
++ Algorithm –
++ Program –
++ Explanation –
+                .MVI A, 80: 
+                OUT 33: 
+                .MVI A, 99: 
+                OUT 30: 
+                CMA: 
+                OUT 31: 
+                INR A: 
+                OUT 32: 
+                RET: 
+________________________________________________________________________________
+ Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number |
+                                                                                |     ________________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number
+                                                                                        
+2) Definition of Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number ?
+-------------------------------------------------------------------------------------------------
+*
+ 
+3) What is Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number About ?
+-------------------------------------------------------------------------------------------------
+*
+*
+
+4) What does Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number Do ?
+------------------------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number :
+----------------------------------------
+*
+*
+*
+
+6) Disadvantages of Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number :
+----------------------------------
+*
+*
+*  
+
+7) Examples of Interface 8255 with 8085 microprocessor for 1’s and 2’s complement of a number :
+-----------------------------------------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<< 8255 (PROGRAMMABLE PERIPHERAL INTERFACE) >>>>>>
+
++ 8255
++ 8255 pin diagram –
++ Modes of 8255 – It works in two modes:
+                                        * Bit set reset (BSR) mode
+                                        * Input/output (I/O) mode 
++ BSR Mode - 
++ I/O Mode -
++ Mode 0 -
++ Mode 1 -
++ Mode 2 - 
+
++ Three Steps to Communicate with "Peripherals" through 8255 :
+
++ Common Applications of 8255 are :
+_____________________________________________________
+ 8255 (programmable peripheral interface)            |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 8255 (programmable peripheral interface)
+                                                                                        
+2) Definition of 8255 (programmable peripheral interface) ?
+-----------------------------------------------------------
+*
+ 
+3) What is 8255 (programmable peripheral interface) About ?
+-----------------------------------------------------------
+*
+*
+
+4) What does 8255 (programmable peripheral interface) Do ?
+----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of 8255 (programmable peripheral interface) :
+--------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of 8255 (programmable peripheral interface) :
+-----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of 8255 (programmable peripheral interface) :
+---------------------------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<< MICROCOMPUTER SYSTEM >>>>>>>
+
++ 8085 microprocessor (Is an Example of a Microcomputer)
+_____________________________________________________
+ Microcomputer system                                |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Microcomputer system
+                                                                                        
+2) Definition of Microcomputer system ?
+---------------------------------------
+*
+ 
+3) What is Microcomputer system About ?
+---------------------------------------
+*
+*
+
+4) What does Microcomputer system Do ?
+--------------------------------------
+*
+*
+
+5) Advantages/Benefits of Microcomputer system :
+------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Microcomputer system :
+---------------------------------------------------
+*
+*
+*  
+
+7) Examples of Microcomputer system :
+-------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<< WORKING of 8085-BASED SINGLE BOARD MICROCOMPUTER >>>>>>
+
++ Single board microcomputers
++ The primary functions of monitor program are as follows: 
+__________________________________________________
+ Working of 8085-based Single board microcomputer |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Working of 8085-based Single board microcomputer
+                                                                                        
+2) Definition of Working of 8085-based Single board microcomputer ?
+-------------------------------------------------------------------
+*
+ 
+3) What is Working of 8085-based Single board microcomputer About ?
+-------------------------------------------------------------------
+*
+*
+
+4) What does Working of 8085-based Single board microcomputer Do ?
+------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Working of 8085-based Single board microcomputer :
+----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Working of 8085-based Single board microcomputer :
+-------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Working of 8085-based Single board microcomputer :
+-----------------------------------------------------------------
+* 
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<<< INTERFACE 8254 PIT with 8085 MICROPROCESSOR >>>>>>>
+
++ Problem –
++ Assumption – 
++ Algorithm –
++ Program –
+   MEMORY   MNEMONICS    COMMENT
+   ADDRESS
+             
+   2000   MVI A 76       A <- 76
+   2002   OUT 83         CR <- A
+   2004   MVI A D0       A <- D0  2006  OUT  C1  2008  MVI  A  200A  OUT  C1  200C  HLT  Stop
+                                        81   <-         A   <-       81  <-
+                                             A          07  07           A
+
++ Explanation –
+               1. MVI A 76
+               2. OUT 83
+               3. MVI A D0
+               4. OUT 81
+               5. MVI A 07
+               6. OUT 81
+               7. HLT
+________________________________________________
+ Interface 8254 PIT with 8085 microprocessor    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Locality of Interface 8254 PIT with 8085 microprocessor
+                                                                                        
+2) Definition of Interface 8254 PIT with 8085 microprocessor ?
+--------------------------------------------------------------
+*
+ 
+3) What is Interface 8254 PIT with 8085 microprocessor About ?
+--------------------------------------------------------------
+*
+*
+
+4) What does Interface 8254 PIT with 8085 microprocessor Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Interface 8254 PIT with 8085 microprocessor :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Interface 8254 PIT with 8085 microprocessor :
+--------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Interface 8254 PIT with 8085 microprocessor :
+------------------------------------------------------------
+*
+*
+_______________________________________________________________________________
+_______________________________________________________________________________
+
+11) <<<<<< SYNCHRONOUS DATA TRANSFER >>>>>>
+            (COMPUTER ORGANIZATION)
+
++ Timing Diagram of the Synchronous Read Operation :
+                                                * Advantages -
+                                                * Disadvantages -
+________________________________________________
+ Synchronous Data Transfer                      |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Synchronous Data Transfer
+                                                                                        
+2) Definition of Synchronous Data Transfer ?
+--------------------------------------------
+*
+ 
+3) What is Synchronous Data Transfer About ?
+--------------------------------------------
+*
+*
+
+4) What does Synchronous Data Transfer Do ?
+-------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Synchronous Data Transfer :
+-----------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Synchronous Data Transfer :
+--------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Synchronous Data Transfer :
+------------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+12) <<<<<< INPUT-OUTPUT PROCESSOR >>>>>>
+
++ DMA Mode
++ Output Processsor (IOP) or IO Channel.
++ The Block Diagram :
+                    * Advantages -
+_________________________________________________
+ Input-Output Processor                          |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Input-Output Processor
+                                                                                        
+2) Definition of Input-Output Processor ?
+-----------------------------------------
+*
+ 
+3) What is Input-Output Processor About ?
+-----------------------------------------
+*
+*
+
+4) What does Input-Output Processor Do ?
+----------------------------------------
+*
+*
+
+5) Advantages/Benefits of Input-Output Processor :
+--------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Input-Output Processor :
+-----------------------------------------------------
+*
+*
+*  
+
+7) Examples of Input-Output Processor :
+---------------------------------------
+*
+*
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+13) <<<<<<< MPU COMMUNICATION >>>>>>>
+            (COMPUTER ORGANIATION)
+
++ Two Different Methods by which I/O Devices can be Identified:
+                                                             * I/Os with 8-bit addresses –
+                                                             * I/Os with 16-bit addresses –
+________________________________________________
+  MPU Communication                             |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* MPU Communication
+                                                                                        
+2) Definition of MPU Communication ?
+------------------------------------
+*
+ 
+3) What is MPU Communication About ?
+------------------------------------
+*
+*
+
+4) What does MPU Communication Do ?
+-----------------------------------
+*
+*
+
+5) Advantages/Benefits of MPU Communication :
+---------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of MPU Communication :
+------------------------------------------------
+*
+*
+*  
+
+7) Examples of MPU Communication :
+----------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+14) <<<<<<< MEMEORY MAPPED I/O and ISOLATED I/O >>>>>>>
+
++ Isolated I/O –
++ Memory Mapped I/O –
+
++ Differences between memory mapped I/O and isolated I/O –
+________________________________________________
+ Memory mapped I/O and Isolated I/O             |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Memory mapped I/O and Isolated I/O
+                                                                                        
+2) Definition of Memory mapped I/O and Isolated I/O ?
+-----------------------------------------------------
+*
+ 
+3) What is Memory mapped I/O and Isolated I/O About ?
+-----------------------------------------------------
+*
+*
+
+4) What does Memory mapped I/O and Isolated I/O Do ?
+----------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Memory mapped I/O and Isolated I/O :
+--------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Memory mapped I/O and Isolated I/O :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Memory mapped I/O and Isolated I/O :
+---------------------------------------------------
+*
+*
+_____________________________________________________________________________________________
+_____________________________________________________________________________________________
+
+15) <<<<<< BUS ARBITRATION >>>>>
+
++ Two Approaches to Bus Arbitration :
+                                     * Centralized bus arbitration –
+                                     * Distributed bus arbitration –
+
++ Methods of Centralized BUS Arbitration –
+       - Three Bus Arbitration Methods :
+                                        * (i) Daisy Chaining method –
+                                        * (ii) Polling or Rotating Priority method – 
+                                        * (iii) Fixed priority or Independent Request method –
+
++ Distributed BUS Arbitration :
+
+________________________________________________
+ BUS Arbitration                                |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* BUS Arbitration 
+                                                                                        
+2) Definition of BUS Arbitration ?
+----------------------------------
+*
+ 
+3) What is BUS Arbitration About ?
+----------------------------------
+*
+*
+
+4) What does BUS Arbitration Do ?
+---------------------------------
+*
+*
+
+5) Advantages/Benefits of BUS Arbitration :
+-------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of BUS Arbitration :
+----------------------------------------------
+*
+*
+*  
+
+7) Examples of BUS Arbitration :
+--------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________

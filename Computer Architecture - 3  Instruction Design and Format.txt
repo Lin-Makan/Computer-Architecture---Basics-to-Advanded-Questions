@@ -1,0 +1,730 @@
+
+    INSTRUCTION DESIGN and FORMAT :
+_________________________________________________________________________________________
+-----------------------------------------------------------------------------------------
+1) Different Instruction Cycles
+2) Essential Registers for Instruction Execution
+3) Machine Instructions
+4) Instruction Formats (Zero, One, Two and Three Address Instruction)
+5) 2-address instruction and 1-address instructions
+6) 3-address instruction and 0-address instruction
+7) 3-address instruction and 2-address instructions
+8) Register content and Flag status after Instructions
+9) Debugging a machine level program
+10) Vector Instruction Format
+11) Vector instruction types
+12) Branch Prediction in Pentium
+13) Instruction Word Size
+14) >> Problem Solving on Instruction Format
+________________________________________________________________________________________________
+
+1) <<<<<<<<<<<<<< DIFFERENT INSTRUCTION CYCLES >>>>>>>>>>>>>>>>>
+
++ Registers Involved In Each Instruction Cycle:
+                                               Memory address registers(MAR) :
+                                               Memory Buffer Register(MBR) :
+                                               Program Counter(PC) :
+                                               Instruction Register(IR) :
++ The Instruction Cycle – 
+                         * Fetch Cycle :
+                         * Indirect Cycle :
+                         * Execute Cycle :
+                         * Interrupt Cycle :
+________________________________________________
+ Different Instruction Cycles                   |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Different Instruction Cycles 
+                                                                                        
+2) Definition of Different Instruction Cycles ?
+-----------------------------------------------
+*
+ 
+3) What is Different Instruction Cycles About ?
+-----------------------------------------------
+*
+*
+
+4) What does Different Instruction Cycles Do ?
+----------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Different Instruction Cycles :
+--------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Different Instruction Cycles :
+-----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Different Instruction Cycles :
+---------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<<<<<<< ESSENTIAL REGISTERS for INSTRUCTION EXECUTION >>>>>>>>>>>>>>
+
++ Various Registers Required For the Execution of Instruction :
+                                                               * Program Counter (PC) :
+                                                               * Instruction Register (IR) : 
+                                                               * Memory Buffer (or Data) Register (MBR or MDR) :
+                                                               * Memory Address Register (MAR) : 
+                                                               
+                                                                                
+________________________________________________
+ Essential Registers for Instruction Execution  |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Essential Registers for Instruction Execution.
+                                                                                        
+2) Definition of Essential Registers for Instruction Execution ?
+----------------------------------------------------------------
+*
+ 
+3) What is Essential Registers for Instruction Execution About ?
+----------------------------------------------------------------
+*
+*
+
+4) What do Essential Registers for Instruction Execution Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Essential Registers for Instruction Execution :
+-------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Essential Registers for Instruction Execution :
+----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Essential Registers for Instruction Execution :
+--------------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<<<<<<<< MACHINE INSTRUCTIONS >>>>>>>>>>>>>>>
+
++ The general format of a machine instruction is :
+                                                  [Label:] Mnemonic [Operand, Operand] [; Comments] 
+                                       Example :  Here: MOV R5,#25H;load 25H into R5
+
++ Machine instructions used in 8086 microprocessor :
+                                                    1. Data transfer instructions– move, load exchange, input, output.
+                                                    2. Arithmetic instructions – add, subtract, increment, decrement, convert byte/word and compare.
+                                                    3. Logic instructions – AND, OR, exclusive OR, shift/rotate and test
+                                                    4. String manipulation instruction – load, store, move, compare and scan for byte/word
+                                                    5. Control transfer instructions – conditional, unconditional, call subroutine and return from subroutine.
+                                                    6. Loop control instructions-
+                                                    7. Processor control instructions- 
+________________________________________________
+ Machine Instructions                           |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Machine Instructions
+                                                                                        
+2) Definition of Machine Instructions ?
+---------------------------------------
+*
+ 
+3) What is Machine Instructions About ?
+---------------------------------------
+*
+*
+
+4) What does Machine Instructions Do ?
+--------------------------------------
+*
+*
+
+5) Advantages/Benefits of Machine Instructions :
+------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Machine Instructions :
+---------------------------------------------------
+*
+*
+*  
+
+7) Examples of Machine Instructions :
+-------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<< INSTRUCTION FORMATS (ZERO, ONE, TWO and THREE ADDRESS INSTRUCTION) >>>>>>>
+
++ CPU Organization is of Three Types Based on Number of AZddress Fields :
+                                       * Single Accumulator organization 
+                                       * General register organization
+                                       * Stack organization
+
++ Based on Number of Address, Instructions are Classified as: 
+                                                             * Zero Address Instructions –
+                                                             * One Address Instructions –
+                                                             * Two Address Instructions –
+                                                             * Three Address Instructions –
+____________________________________________________________________
+ Instruction Formats (Zero, One, Two and Three Address Instruction) |
+                                                                    |                 
+____________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Instruction Formats (Zero, One, Two and Three Address Instruction)
+                                                                                        
+2) Definition of Instruction Formats (Zero, One, Two and Three Address Instruction) ?
+-------------------------------------------------------------------------------------
+*
+ 
+3) What is Instruction Formats (Zero, One, Two and Three Address Instruction) About ?
+-------------------------------------------------------------------------------------
+*
+*
+
+4) What do Instruction Formats (Zero, One, Two and Three Address Instruction) Do ?
+----------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Instruction Formats (Zero, One, Two and Three Address Instruction) :
+----------------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Instruction Formats (Zero, One, Two and Three Address Instruction) :
+-------------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Instruction Formats (Zero, One, Two and Three Address Instruction) :
+-----------------------------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5)  <<<<<<<<< 2-ADDRESS INSTRUCTION and 1-ADDRESS INSTRUCTIONS >>>>>>>>>
+
++ Two-Address Instructions :
++ One-Address Instructions :
++ Difference between Two-Address Instruction & One-Address Instruction :
+__________________________________________________
+ 2-address instruction and 1-address instructions |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 2-address instruction and 1-address instructions
+                                                                                        
+2) Definition of 2-address instruction and 1-address instructions ?
+-------------------------------------------------------------------
+*
+ 
+3) What is 2-address instruction and 1-address instructions About ?
+-------------------------------------------------------------------
+*
+
+4) What do 2-address instruction and 1-address instructions Do ?
+----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of 2-address instruction and 1-address instructions :
+----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of 2-address instruction and 1-address instructions :
+-------------------------------------------------------------------------------
+* 
+*  
+
+7) Examples of 2-address instruction and 1-address instructions :
+-----------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<< 3-ADDRESS INSTRUCTION and 0-ADDRESS INSTRUCTION >>>>>>>
+
++ Three-Address Instructions :
++ Zero-Address Instructions :
++ Difference between Three-Address Instruction & Zero-Address Instruction :
+____________________________________________________________
+ 3-address instruction and 0-address instruction            |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 3-address instruction and 0-address instruction
+                                                                                        
+2) Definition of 3-address instruction and 0-address instruction ?
+------------------------------------------------------------------
+*
+ 
+3) What is 3-address instruction and 0-address instruction About ?
+------------------------------------------------------------------
+*
+*
+
+4) What does 3-address instruction and 0-address instruction Do ?
+-----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of 3-address instruction and 0-address instruction :
+---------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of 3-address instruction and 0-address instruction :
+---------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of 3-address instruction and 0-address instruction :
+----------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<<< 3-ADDRESS INSTRUCTION and 2-ADDRESS INSTRUCTIONS >>>>>>>>>
+
++ Three-Address Instructions :
++ Two-Address Instructions :
++ Difference between Three-Address Instruction and Two-Address Instruction :
+_____________________________________________________
+ 3-address instruction and 2-address instructions    |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 3-address instruction and 2-address instructions
+                                                                                        
+2) Definition of 3-address instruction and 2-address instructions ?
+-------------------------------------------------------------------
+*
+ 
+3) What is 3-address instruction and 2-address instructions About ?
+-------------------------------------------------------------------
+*
+*
+
+4) What do 3-address instruction and 2-address instructions ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of 3-address instruction and 2-address instructions :
+----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of 3-address instruction and 2-address instructions :
+-------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of 3-address instruction and 2-address instructions :
+-----------------------------------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<< REGISTER CONTENT and FLAG STATUS AFTER INSTRUCTIONS >>>>>>>>>>>
+
++ Instruction-1:
++ Instruction-2:
++ Instruction-3:
++ Instruction-4:
++ Instruction-5:
+_____________________________________________________
+ Register content and Flag status after Instructions |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Register content and Flag status after Instructions
+                                                                                        
+2) Definition of Register content and Flag status after Instructions ?
+----------------------------------------------------------------------
+*
+ 
+3) What is Register content and Flag status after Instructions About ?
+----------------------------------------------------------------------
+*
+*
+
+4) What does Register content and Flag status after Instructions Do ?
+---------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Register content and Flag status after Instructions :
+-------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Register content and Flag status after Instructions :
+----------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Register content and Flag status after Instructions :
+--------------------------------------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<<<<<<<<<<< DEBUGGING a MACHINE LEVEL PROGRAM >>>>>>>>>>>>>>>>
+
++ Debugging of machine code:
++ Common sources of error:
++ Debugging Process is Divided into Two Parts :
+                                               Static Debugging:
+                                               Dynamic Debugging: 
+_________________________________________________
+ Debugging a machine level program               |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Debugging a machine level program
+                                                                                        
+2) Definition of Debugging a machine level program ?
+----------------------------------------------------
+*
+ 
+3) What is Debugging a machine level program About ?
+----------------------------------------------------
+*
+*
+
+4) What does Debugging a machine level program Do ?
+---------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Debugging a machine level program :
+-------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Debugging a machine level program :
+----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Debugging a machine level program :
+--------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<<<<<<<<<<<< VECTOR INSTRUCTION FORMAT >>>>>>>>>>>>>>>>>
+
++ Main Fields Used in Vector Instruction Set Are :
+                                                  Operations Code (Opcode) –
+                                                  Base addresses –
+                                                  Offset (or Displacement) –
+                                                  Address Increment –
+                                                  Vector length –
+________________________________________________
+ Vector Instruction Format                      |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Vector Instruction Format
+                                                                                        
+2) Definition of Vector Instruction Format ?
+--------------------------------------------
+*
+ 
+3) What is Vector Instruction Format About ?
+--------------------------------------------
+*
+*
+
+4) What does Vector Instruction Format Do ?
+-------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Vector Instruction Format :
+-----------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Vector Instruction Format :
+--------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Vector Instruction Format :
+------------------------------------------
+*
+*
+_______________________________________________________________________________
+_______________________________________________________________________________
+
+11) <<<<<<<<<<<<<<<< VECTOR INSTRUCTION TYPES >>>>>>>>>>>>>>>>>
+
++ The VCOM (vector complement)
++ The VMAX (vector maximum)
++ The VMPL (vector multiply)
++ The SVP (scalar vector product)
+________________________________________________
+ Vector instruction types                       |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Vector instruction types
+                                                                                        
+2) Definition of Vector instruction types ?
+-------------------------------------------
+*
+ 
+3) What is Vector instruction types About ?
+-------------------------------------------
+*
+*
+
+4) What does Vector instruction types Do ?
+------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Vector instruction types :
+----------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Vector instruction types :
+-------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Vector instruction types :
+-----------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+12) <<<<<<<<<<<<<<<<< BRANCH PREDICTION in PENTIUM >>>>>>>>>>>>>>>>>
+
++ Why do we need branch prediction ?
++ Branch prediction logic :
++ Working of Branch Prediction :
+________________________________________________
+ Branch Prediction in Pentium                   |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Branch Prediction in Pentium
+                                                                                        
+2) Definition of Branch Prediction in Pentium ?
+-----------------------------------------------
+*
+ 
+3) What is Branch Prediction in Pentium About ?
+-----------------------------------------------
+*
+*
+
+4) What does Branch Prediction in Pentium Do ?
+----------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Branch Prediction in Pentium :
+--------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Branch Prediction in Pentium :
+-----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Branch Prediction in Pentium :
+---------------------------------------------
+*
+*
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+13) <<<<<<<<<<<<<<< INSTRUCTION WORD SIZE >>>>>>>>>>>>>>>>>
+                    INSTRUCTION WORD SIZE in Microprocessor
++ 1. One-byte instructions –
++ 2. Two-byte instructions –
++ 3. Three-byte instructions –
+________________________________________________
+ Instruction Word Size                          |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Instruction Word Size
+                                                                                        
+2) Definition of Instruction Word Size ?
+----------------------------------------
+*
+ 
+3) What is Instruction Word Size About ?
+----------------------------------------
+*
+*
+
+4) What does Instruction Word Size Do ?
+---------------------------------------
+*
+*
+
+5) Advantages/Benefits of Instruction Word Size :
+-------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Instruction Word Size :
+----------------------------------------------------
+*
+*
+*  
+
+7) Examples of Instruction Word Size :
+--------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+14) <<<<<<<<<<<<<<< >> PROBLEM SOLVING on INSTRUCTION FORMAT >>>>>>>>>>>>>>>>>
+
++ Different Terms Related to instruction format: 
+                                                Instruction set size –
+                                                Opcode size –
+                                                Operand size –
+                                                Instruction size –
+________________________________________________
+ >> Problem Solving on Instruction Format       |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* >> Problem Solving on Instruction Format
+                                                                                        
+2) Definition of >> Problem Solving on Instruction Format ?
+-----------------------------------------------------------
+*
+ 
+3) What is >> Problem Solving on Instruction Format About ?
+-----------------------------------------------------------
+*
+*
+
+4) What does >> Problem Solving on Instruction Format Do ?
+----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of >> Problem Solving on Instruction Format :
+--------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of >> Problem Solving on Instruction Format :
+-----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of >> Problem Solving on Instruction Format :
+---------------------------------------------------------
+*
+*

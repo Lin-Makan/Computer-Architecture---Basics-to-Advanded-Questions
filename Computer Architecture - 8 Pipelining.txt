@@ -1,0 +1,236 @@
+
+    PIPELINING :
+________________________________________________________________________________________________
+------------------------------------------------------------------------------------------------
+
+1) Instruction Level Parallelism
+2) Execution, Stages and Throughput
+3) Types and Stalling
+4) Dependencies and Data Hazard
+_________________________________________________________________________________________________
+
+1) <<<<<<<<< INSTRUCTION LEVEL PARALLELISM >>>>>>>>>>
+
++ Instruction Level Parallelism (ILP)
++ Sequential record of execution vs. Instruction-level Parallel record of execution –
+
++ Architecture :
+       = Classification of ILP Architectures can be Done in the following ways :
+                                                  * Sequential Architecture :
+                                                  * Dependence Architectures :
+                                                  * Independence Architecture :
+________________________________________________
+ Instruction Level Parallelism                  |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Instruction Level Parallelism 
+                                                                                        
+2) Definition of Instruction Level Parallelism ?
+------------------------------------------------
+*
+ 
+3) What is Instruction Level Parallelism About ?
+------------------------------------------------
+*
+*
+
+4) What does Instruction Level Parallelism Do ?
+-----------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Instruction Level Parallelism :
+---------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Instruction Level Parallelism :
+------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Instruction Level Parallelism :
+----------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<< EXECUTION, STAGES and THROUGHPUT >>>>>>>>>>
+   Computer Organization and Architecture | Pipelining | Set 1 (Execution, Stages and Throughput)
+
++ Pipelining :
+              * Without Pipelining = 9/3 minutes = 3m
+              * With Pipelining = 5/3 minutes = 1.67m
+
++ Design of a Basic Pipeline :
++ Execution in a pipelined processor
++ Non overlapped execution:
++ Overlapped execution:
+
++ Pipeline Stages :
+          5 Stages of RISC Pipeline: 
+                                    * Stage 1 (Instruction Fetch)
+                                    * Stage 2 (Instruction Decode)
+                                    * Stage 3 (Instruction Execute)
+                                    * Stage 4 (Memory Access)
+                                    * Stage 5 (Write Back)
+
++ Performance of a pipelined processor 
+__________________________________________________
+ Execution, Stages and Throughput                 |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Execution, Stages and Throughput.
+                                                                                        
+2) Definition of Execution, Stages and Throughput ?
+---------------------------------------------------
+*
+ 
+3) What is Execution, Stages and Throughput About ?
+---------------------------------------------------
+*
+*
+
+4) What do Execution, Stages and Throughput Do ?
+------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Execution, Stages and Throughput :
+------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Execution, Stages and Throughput :
+---------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Execution, Stages and Throughput :
+-------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<< TYPES and STALLING >>>>>>>>
+   Computing Organization and Architecture | Pipelining | Set 3 (Types and Stalling)
+
++ Types of pipeline :
+                     * Uniform delay pipeline
+                     * Non-Uniform delay pipeline
+
++ Performance of pipeline with stalls 
+________________________________________________________________________
+ Types and Stalling                                                     |
+                                                                        |             ________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Types and Stalling
+                                                                                        
+2) Definition of Types and Stalling ?
+-------------------------------------
+*
+ 
+3) What is Types and Stalling About ?
+-------------------------------------
+*
+*
+
+4) What does Types and Stalling Do ?
+------------------------------------
+*
+*
+
+5) Advantages/Benefits of Types and Stalling :
+----------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Types and Stalling :
+-------------------------------------------------
+*
+*
+*  
+
+7) Examples of Types and Stalling :
+-----------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<< DEPENDENCIES and DATA HAZARD >>>>>>>
+Computing Organization and Architecture | Pipelining | Set 2 (Dependencies)
+
++ Dependencies in a pipelined processor
++ Stall : A stall is a cycle in the pipeline without new input
++ Structural dependency
++ Solution for structural dependency :
+                                      Renaming :
+
++ Control Dependency (Branch Hazards)
++ Solution for Control dependency :
+                                   Branch penalty :
++ Data Dependency (Data Hazard)
++ Data Hazards
+______________________________________________________________________________
+ Dependencies and Data Hazard                                                 |
+                                                                              |       ______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Dependencies and Data Hazard
+                                                                                        
+2) Definition of Dependencies and Data Hazard ?
+-----------------------------------------------
+*
+ 
+3) What is Dependencies and Data Hazard About ?
+-----------------------------------------------
+*
+*
+
+4) What does Dependencies and Data Hazard Do ?
+----------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Dependencies and Data Hazard :
+--------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Dependencies and Data Hazard :
+-----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Dependencies and Data Hazard :
+---------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________

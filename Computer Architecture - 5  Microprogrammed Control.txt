@@ -1,0 +1,579 @@
+   
+         MICROPROGRAMMED CONTROL :
+____________________________________________________________________________________________
+--------------------------------------------------------------------------------------------
+
+1) Micro-Operation
+2) Microarchitecture and Instruction Set Architecture 
+  Types of Program Control Instructions
+
+3) Difference between CALL and JUMP instructions
+4) Hardwired v/s Micro-programmed Control Unit
+5) Implementation of Micro Instructions Sequencer
+6) Performance of Computer
+7) Control Unit and design
+8) Horizontal micro-programmed Vs Vertical micro-programmed control unit
+9) Comparisons between Hardwired Vs Micro-programmed Control unit
+10) Computer Organization | Subprogram and its characteristics
+____________________________________________________________________________________________
+
+1) <<<<<<<< MICRO-OPERATION >>>>>>>>
+________________________________________________
+ Micro-Operation                                |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Micro-Operation 
+                                                                                        
+2) Definition of Micro-Operation ?
+----------------------------------
+*
+ 
+3) What is Micro-Operation About ?
+----------------------------------
+*
+*
+
+4) What does Micro-Operation Do ?
+---------------------------------
+*
+*
+
+5) Advantages/Benefits of Micro-Operation :
+-------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Micro-Operation :
+----------------------------------------------
+*
+*
+*  
+
+7) Examples of Micro-Operation :
+--------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<<< MICROARCHITECTURE and INSTRUCTION SET ARCHITECTURE >>>>>>>>>>
+
+  Based on the type of operations they perform MIPS,  
++ Instructions are classified into 3 types :
+                                            Arithmetic/Logic Instructions :
+                                            Data Transfer Instructions :
+                                            Branch and Jump Instructions  
+____________________________________________________
+ Microarchitecture and Instruction Set Architecture |
+                                                    |                  
+____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Microarchitecture and Instruction Set Architecture.
+                                                                                        
+2) Definition of Microarchitecture and Instruction Set Architecture ?
+---------------------------------------------------------------------
+*
+ 
+3) What is Microarchitecture and Instruction Set Architecture About ?
+---------------------------------------------------------------------
+*
+*
+
+4) What do Microarchitecture and Instruction Set Architecture Do ?
+------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Microarchitecture and Instruction Set Architecture :
+------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Microarchitecture and Instruction Set Architecture :
+---------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Microarchitecture and Instruction Set Architecture :
+-------------------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+ <<<<<<<<<<<<<< TYPES of PROGRAM CONTROL INSTRUCTIONS >>>>>>>>>>>>>>>
+
++ Program Control Instructions
++ Types of Program Control Instructions :
+                                         1. Compare Instruction: 
+                                         2. Unconditional Branch Instruction:
+                                         3. Conditional Branch Instruction: 
+                                         4. Subroutines: 
+                                         5. Halting Instructions:
+                                         6. Interrupt Instructions:   
+________________________________________________
+ Types of Program Control Instructions          |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Types of Program Control Instructions
+                                                                                        
+2) Definition of Types of Program Control Instructions ?
+--------------------------------------------------------
+*
+ 
+3) What is Types of Program Control Instructions About ?
+--------------------------------------------------------
+*
+*
+
+4) What does Types of Program Control Instructions Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Types of Program Control Instructions :
+-----------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Types of Program Control Instructions :
+--------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Types of Program Control Instructions :
+------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+3) <<<<<<<<< DIFFERENCE BETWEEN CALL and JUMP INSTRUCTIONS >>>>>>>>>>
+
++ Jump
++ CALL
+____________________________________________________________________
+ Difference between CALL and JUMP instructions                      |
+                                                                    |                  
+____________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Difference between CALL and JUMP instructions
+                                                                                        
+2) Definition of Difference between CALL and JUMP instructions ?
+----------------------------------------------------------------
+*
+ 
+3) What is Difference between CALL and JUMP instructions About ?
+----------------------------------------------------------------
+*
+*
+
+4) What do Difference between CALL and JUMP instructions Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Difference between CALL and JUMP instructions :
+-------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Difference between CALL and JUMP instructions :
+----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Difference between CALL and JUMP instructions :
+--------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+4) <<<<<<<<< HARDWIRED v/s MICRO-PROGRAMMED CONTROL UNIT >>>>>>>>>
+             COMPUTER ORGANIZATION 
+
++ Hardwired Control Unit – 
++ Micro-programmed Control Unit – 
++ Some Important Terms – 
+                        Control Word:
+                        Micro-routine:
+                        Micro-instruction:
+                        Micro-program:
+                        Control Store:
+
++ Types of Micro-programmed Control Unit –
+                                          1. Horizontal Micro-programmed Control Unit : 
+                                          2. Vertical Micro-programmed Control Unit :
+GATE CS Corner Questions                                          
+__________________________________________________
+ Hardwired v/s Micro-programmed Control Unit      |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Hardwired v/s Micro-programmed Control Unit
+                                                                                        
+2) Definition of Hardwired v/s Micro-programmed Control Unit ?
+--------------------------------------------------------------
+*
+ 
+3) What is Hardwired v/s Micro-programmed Control Unit About ?
+--------------------------------------------------------------
+*
+
+4) What do Hardwired v/s Micro-programmed Control Unit Do ?
+-----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Hardwired v/s Micro-programmed Control Unit :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Hardwired v/s Micro-programmed Control Unit :
+--------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Hardwired v/s Micro-programmed Control Unit :
+------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<<<<<<< IMPLEMENTATION of MICRO INSTRUCTIONS SEQUENCER >>>>>>>>>>>>
+
++ Micro Instructions Sequencer 
++ Implementation of Micro Instructions Sequencer –
+                                                  * Control Address Register(CAR) :
+                                                  * Multiplexer :
+                                                  * Branching :
+                                                  * Mapping Logic :
+                                                  * Incrementer :
+                                                  * Subroutine Register (SBR) :
+                                                  * Control Memory :
+____________________________________________________________
+ Implementation of Micro Instructions Sequencer             |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Implementation of Micro Instructions Sequencer
+                                                                                        
+2) Definition of Implementation of Micro Instructions Sequencer ?
+-----------------------------------------------------------------
+*
+ 
+3) What is Implementation of Micro Instructions Sequencer About ?
+-----------------------------------------------------------------
+*
+*
+
+4) What does Implementation of Micro Instructions Sequencer Do ?
+----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Implementation of Micro Instructions Sequencer :
+--------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Implementation of Micro Instructions Sequencer :
+--------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Implementation of Micro Instructions Sequencer :
+---------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+6) <<<<<<<<<<<<<<<< PERFORMANCE of COMPUTER >>>>>>>>>>>>>>>>>
+
+ + Computer performance
+ + Response time :
+ + Throughput :
+ + CPU execution time
+ + How to Improve Performance ?
+_____________________________________________________
+ Performance of Computer                             |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Performance of Computer
+                                                                                        
+2) Definition of Performance of Computer ?
+------------------------------------------
+*
+ 
+3) What is Performance of Computer About ?
+------------------------------------------
+*
+*
+
+4) What do Performance of Computer ?
+------------------------------------
+*
+*
+
+5) Advantages/Benefits of Performance of Computer :
+---------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Performance of Computer :
+------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Performance of Computer :
+----------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+7) <<<<<<<<<<<<<<< CONTROL UNIT and DESIGN >>>>>>>>>>>>>>>>>
+                   Introduction of Control Unit and its Design
+
++ Control Unit
++ Functions of the Control Unit –
++ Types of Control Unit – 
+                         1. Hardwired Control Unit –
+                         2. Microprogrammable control unit –
+                                                             * With a single-level control store:
+                                                             * With a two-level control store:
+                                                             * 
+_____________________________________________________
+ Control Unit and design                             |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Control Unit and design
+                                                                                        
+2) Definition of Control Unit and design ?
+------------------------------------------
+*
+ 
+3) What is Control Unit and design About ?
+------------------------------------------
+*
+*
+
+4) What does Control Unit and design Do ?
+-----------------------------------------
+*
+*
+
+5) Advantages/Benefits of Control Unit and design :
+---------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Control Unit and design :
+------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Control Unit and design :
+----------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+8) <<<<<< HORIZONTAL MICRO-PROGRAMMED vs VERTICAL MICRO-PROGRAMMED CONTROL UNIT >>>>>>>>>>>>>>>>
+
++ control unit (CU)
++ Difference between Horizontal and Vertical micro-programmed Control Unit:
+
+ 
+_______________________________________________________________________
+ Horizontal micro-programmed Vs Vertical micro-programmed control unit |
+                                                                       |              _______________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Horizontal micro-programmed Vs Vertical micro-programmed control unit
+                                                                                        
+2) Definition of Horizontal micro-programmed Vs Vertical micro-programmed control unit ?
+----------------------------------------------------------------------------------------
+*
+ 
+3) What is Horizontal micro-programmed Vs Vertical micro-programmed control unit About ?
+----------------------------------------------------------------------------------------
+*
+*
+
+4) What does Horizontal micro-programmed Vs Vertical micro-programmed control unit Do ?
+---------------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Horizontal micro-programmed Vs Vertical micro-programmed control unit :
+-------------------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Horizontal micro-programmed Vs Vertical micro-programmed control unit :
+----------------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Horizontal micro-programmed Vs Vertical micro-programmed control unit :
+--------------------------------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+9) <<<<<<< COMPARISON between HARDWIRED vs MICRO-PROGRAMMED CONTROL UNIT >>>>>>>> 
+           Difference between Hardwired and Micro-programmed Control Unit | Set 2
+
+* Hardwired Control Unit
+* Microprogrammed Control Unit
+             
+________________________________________________________________
+ Comparisons between Hardwired Vs Micro-programmed Control unit |
+                                                                |                  
+________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Comparisons between Hardwired Vs Micro-programmed Control unit
+                                                                                        
+2) Definition of Comparisons between Hardwired Vs Micro-programmed Control unit ?
+---------------------------------------------------------------------------------
+*
+ 
+3) What is Comparisons between Hardwired Vs Micro-programmed Control unit About ?
+---------------------------------------------------------------------------------
+*
+*
+
+4) What does Comparisons between Hardwired Vs Micro-programmed Control unit Do ?
+--------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Comparisons between Hardwired Vs Micro-programmed Control unit :
+------------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Comparisons between Hardwired Vs Micro-programmed Control unit :
+---------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Comparisons between Hardwired Vs Micro-programmed Control unit :
+-------------------------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+10) <<<<<<<<<<<< COMPUTER ORGANIZATION | SUBPROGRAM and Its CHARACTERISTICS >>>>>>>>>>>>>>
+
++ Subprogram
++ Characteristics of a Subprogram:
+____________________________________________________________
+ Computer Organization | Subprogram and its characteristics |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Organization | Subprogram and its characteristics
+                                                                                        
+2) Definition of Computer Organization | Subprogram and its characteristics ?
+-----------------------------------------------------------------------------
+*
+ 
+3) What is Computer Organization | Subprogram and its characteristics About ?
+-----------------------------------------------------------------------------
+*
+*
+
+4) What does Computer Organization | Subprogram and its characteristics Do ?
+----------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Organization | Subprogram and its characteristics :
+--------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Organization | Subprogram and its characteristics :
+-----------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Organization | Subprogram and its characteristics :
+---------------------------------------------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+

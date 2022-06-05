@@ -1,0 +1,1595 @@
+
+ BASIC COMPUTER INSTRUCTIONS :
+_____________________________________________________________________________________
+-------------------------------------------------------------------------------------
+1) A Simple understanding of Computer
+2) Issues In Computer Design
+3) Computer System Level Hierarchy
+4) Computer Architecture and Computer Organization
+5) Basic Computer Instructions 
+6) Timing Diagram of MOV Instruction 
+7) Assembly language and High level language 
+8) Addressing Modes
+9) Memory based Vs Register based addressing modes
+10) Von Neumann Architecture
+11) Harvard Architecture
+12) Interaction of A Program
+13) Simplified Instructional Computer (SIC)
+14) Instruction Set used in simplified instruction Computer (SIC)
+15) Instruction Set used in SIC/XE
+16) RISC and CISC
+17) RISC and CISC | Set 2
+18) Vector Processor Classification
+19) Essential Registers for Instruction Execution
+20) Single Accumulator based CPU Organization 
+21) Stack based CPU Organization 
+22) General Register based CPU Organization 
+23) Data Transfer Instructions in AVR Microcontroller
+24) Arithmetic instructions in AVR Microcontroller
+25) Conditional Branch Instructions in AVR Microcontroller
+26) CALL Instructions and Stack in AVR Microcontroller
+27) Branch Instructions in AVR Microcontroller
+28) Logical Instructions in AVR Microcontroller
+29) Data Manipulation Instructions 
+30) Machine Control Instruction
+31) Very Long Instruction Word (VLIW) Architecture 
+
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+1) <<<<<<<<<<<<<< A SIMPLE UNDERSTANDING OF COMPUTER >>>>>>>>>>>>>>>>>>>>
+
++ Step-1: take 2 value.
++ Step-2: store that 2 value
++ Step-3: add 2 value by using + operator
++ Step-4: save the answer
+________________________________________________
+ A Simple understanding of Computer             |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* A Simple understanding of Computer 
+                                                                                        
+2) Definition of A Simple understanding of Computer?
+----------------------------------------------------
+*
+ 
+3) What is A Simple understanding of Computer About ?
+-----------------------------------------------------
+*
+*
+
+4) What does A Simple understanding of Computer Do ?
+----------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of A Simple understanding of Computer :
+--------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of A Simple understanding of Computer :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of A Simple understanding of Computer :
+---------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<<<<<<< ISSUES IN COMPUTER DESIGN >>>>>>>>>>>>>>>>>>>>
+
++ Assumption of infinite speed 
++ Assumption of infinite of Memory
++ Speed mismatch between memory
++ Handling of bugs and errors
++ Multiple processors
++ Multiple threads
++ Shared memory
++ Disk access
++ Better performance 
+________________________________________________
+ Issues In Computer Design                      |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Issues In Computer Design.
+                                                                                        
+2) Definition of Issues In Computer Design ?
+--------------------------------------------
+*
+ 
+3) What is Issues In Computer Design About ?
+--------------------------------------------
+*
+*
+
+4) What do Issues In Computer Design Do ?
+-----------------------------------------
+*
+*
+
+5) Advantages/Benefits of Issues In Computer Design :
+-----------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Issues In Computer Design :
+--------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Issues In Computer Design :
+------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<<<<<<<< COMPUTER SYSTEM LEVEL HIERARCHY >>>>>>>>>>>>>>>
+
++ Level-0 
++ Level-1
++ Level-2
++ Level-3
++ Level-4
++ Level-5
++ Level-6
+________________________________________________
+ Computer System Level Hierarchy                |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer System Level Hierarchy
+                                                                                        
+2) Definition of Computer System Level Hierarchy ?
+--------------------------------------------------
+*
+ 
+3) What is Computer System Level Hierarchy About ?
+--------------------------------------------------
+*
+*
+
+4) What does Computer System Level Hierarchy Do ?
+-------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer System Level Hierarchy :
+-----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer System Level Hierarchy :
+--------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer System Level Hierarchy :
+------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<<<<<<<<<< COMPUTER ARCHITECTURE and COMPUTER ORGANZATION >>>>>>>>>>>>>>>
+
++ Difference Between "Computer Architecture & Computer Organization"
+_________________________________________________
+ Computer Architecture and Computer Organization |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Computer Architecture and Computer Organization
+                                                                                        
+2) Definition of Computer Architecture and Computer Organization ?
+------------------------------------------------------------------
+*
+ 
+3) What is Computer Architecture and Computer Organization About ?
+------------------------------------------------------------------
+*
+*
+
+4) What do Computer Architecture and Computer Organization Do ?
+---------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Computer Architecture and Computer Organization :
+---------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Computer Architecture and Computer Organization :
+------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Computer Architecture and Computer Organization :
+----------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<<<<<<<<<<<<<<<< BASIC COMPUTER INSTRUCTIONS >>>>>>>>>>>>>>>>>>>>
+
++ Memory Reference
++ Register Reference
++ Input/Output 
+________________________________________________
+ Basic Computer Instructions                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Basic Computer Instructions
+                                                                                        
+2) Definition of Basic Computer Instructions ?
+----------------------------------------------
+*
+ 
+3) What is Basic Computer Instructions About ?
+----------------------------------------------
+*
+
+4) What do Basic Computer Instructions Do ?
+-------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Basic Computer Instructions :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Basic Computer Instructions :
+----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Basic Computer Instructions :
+--------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<<<<<<<<<<<<< TIMING DIAGRAM of MOV INSTRUCTION >>>>>>>>>>>>>>>>>
+
++ Timing Diagram of MOV Instruction in Microprocessor
+
++ Problem – Draw the timing diagram of the given instruction in 8085,
++ Example: 
++ Algorithm -
+
++ In Opcode fetch ( t1-t4 T states ):
+
+A) 00 – lower bit of address where opcode is stored, i.e., 00
+B) 20 – higher bit of address where opcode is stored, i.e., 20.
+C) ALE – provides signal for multiplexed address and data bus. Only in t1 it used as D) address bus to fetch lower bit of address otherwise it will be used as data bus.
+E) RD (low active) – signal is 1 in t1 & t4 as no data is read by microprocessor. F) Signal is 0 in t2 & t3 because here the data is read by microprocessor.
+G) WR (low active) – signal is 1 throughout, no data is written by microprocessor.
+H) IO/M (low active) – signal is 1 in throughout because the operation is performing on memory.
+I) S0 and S1 – both are 1 in case of opcode fetching.
+____________________________________________________________
+ Timing Diagram of MOV Instruction                          |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Timing Diagram of MOV Instruction
+                                                                                        
+2) Definition of Timing Diagram of MOV Instruction ?
+----------------------------------------------------
+*
+ 
+3) What is Timing Diagram of MOV Instruction About ?
+----------------------------------------------------
+*
+*
+
+4) What does Timing Diagram of MOV Instruction Do ?
+---------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Timing Diagram of MOV Instruction :
+-------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of Timing Diagram of MOV Instruction :
+-------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Timing Diagram of MOV Instruction :
+--------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<<<<<<<<<<< ASSEMBLY LANGUAGE and HIGH LEVEL LANGUAGE >>>>>>>>>>>>>>>>>
+
++ Assembly level language 
++ High-level language
++ Difference between Assembly level language & High-Level language
+_____________________________________________________
+ Assembly language and High level language           |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Assembly language and High level language
+                                                                                        
+2) Definition of Assembly language and High level language ?
+------------------------------------------------------------
+*
+ 
+3) What is Assembly language and High level language About ?
+------------------------------------------------------------
+*
+*
+
+4) What do Assembly language and High level language ?
+------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Assembly language and High level language :
+---------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Assembly language and High level language :
+------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Assembly language and High level language :
+----------------------------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<<<<<<<<<<<< ADDRESSING MODES >>>>>>>>>>>>>>>>>
+
++ Adressing Modes
++ Addressing modes for 8086 instructions are divided into two categories:
+  1. Addressing modes for data
+  2. Addressing modes for branch
++ Important Terms : Starting Address
+                    Effective Address or Offset
+                    Displacement
+                    Base
+                    Index
+________________________________________________
+ Addressing Modes                               |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Addressing Modes
+                                                                                        
+2) Definition of Addressing Modes ?
+-----------------------------------
+*
+ 
+3) What is Addressing Modes About ?
+-----------------------------------
+*
+*
+
+4) What does Addressing Modes Do ?
+----------------------------------
+*
+*
+
+5) Advantages/Benefits of Addressing Modes :
+--------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Addressing Modes :
+-----------------------------------------------
+*
+*
+*  
+
+7) Examples of Addressing Modes :
+---------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<<<<<<<<<<<< MEMORY BASED Vs REGISTER BASED ADDRESSING MODES >>>>>>>>>>>>>>>>
+
++ Difference between Memory based and Register based Addressing Modes:
++ Memory Based Addressing Modes
++ Register Based Addressing Modes
+_________________________________________________
+ Memory based Vs Register based addressing modes |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Memory based Vs Register based addressing modes
+                                                                                        
+2) Definition of Memory based Vs Register based addressing modes ?
+------------------------------------------------------------------
+*
+ 
+3) What is Memory based Vs Register based addressing modes About ?
+------------------------------------------------------------------
+*
+*
+
+4) What does Memory based Vs Register based addressing modes Do ?
+-----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Memory based Vs Register based addressing modes :
+---------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Memory based Vs Register based addressing modes :
+------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Memory based Vs Register based addressing modes :
+----------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<<<<<<<<<<<< VON NEUMANN ARCHITECTURE >>>>>>>>>>>>>>>>>
+
++ Fixed Program Computers –
++ Stored Program Computers –
++ IAS Computer :
++ Basic CPU Structure
++ Buses
++ Von Neumann Bottleneck 
+________________________________________________
+ Von Neumann architecture                       |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Von Neumann architecture
+                                                                                        
+2) Definition of Von Neumann architecture ?
+-------------------------------------------
+*
+ 
+3) What is Von Neumann architecture About ?
+-------------------------------------------
+*
+*
+
+4) What does Von Neumann architecture Do ?
+------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Von Neumann architecture :
+----------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Von Neumann architecture :
+-------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Von Neumann architecture :
+-----------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+11) <<<<<<<<<<<<<< HARVARD ARCHITECTURE >>>>>>>>>>>>>>>
+
++ Structure of Harvard Architecture
++ Buses
++ Operational Registers
++ Program Counter
++ Arithmetic and Logic Unit 
++ Control Unit
++ Input/Output System
+________________________________________________
+ Harvard Architecture                           |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Harvard Architecture
+                                                                                        
+2) Definition of Harvard Architecture ?
+---------------------------------------
+*
+ 
+3) What is Harvard Architecture About ?
+---------------------------------------
+*
+*
+
+4) What does Harvard Architecture Do ?
+--------------------------------------
+*
+*
+
+5) Advantages/Benefits of Harvard Architecture :
+------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Harvard Architecture :
+---------------------------------------------------
+*
+*
+*  
+
+7) Examples of Harvard Architecture :
+-------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+12) <<<<<<<<<<<<<<<< INTERACTION of A PROGRAM with HARDWARE >>>>>>>>>>>>>>>>>>>
+
++ Interaction of a Program with Hardware- The step-by-Step Procedure
+
+________________________________________________
+ Interaction of a Program with Hardware         |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Interaction of a Program with Hardware
+                                                                                        
+2) Definition of Interaction of a Program with Hardware ?
+---------------------------------------------------------
+*
+ 
+3) What is Interaction of a Program with Hardware About ?
+---------------------------------------------------------
+*
+*
+
+4) What does Interaction of a Program with Hardware Do ?
+--------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Interaction of a Program with Hardware :
+------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Interaction of a Program with Hardware :
+---------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Interaction of a Program with Hardware :
+-------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+13) <<<<<<<<<<<<<<<< SIMPLIFIED INSTRUCTIONAL COMPUTER (SIC) >>>>>>>>>>>>>>
+ 
++ SIC Standard Model
++ SIC/XE(extra equipment or expensive) 
++ SIC Machine Architecture/Components : 
++   
+________________________________________________
+ Simplified Instructional Computer (SIC)        |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Simplified Instructional Computer (SIC)
+                                                                                        
+2) Definition of Simplified Instructional Computer (SIC) ?
+----------------------------------------------------------
+*
+ 
+3) What is Simplified Instructional Computer (SIC) About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Simplified Instructional Computer (SIC) Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Simplified Instructional Computer (SIC) :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Simplified Instructional Computer (SIC) :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Simplified Instructional Computer (SIC) :
+--------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+14) <<<<<<<<<<<<<< INSTRUCTION SET USED IN SIMPLIFIED INSTRUCTIONAL COMPUTER (SIC) >>>>>>>>>>>>>>
+
++ MNEMONIC , OPERAND , OPCODE, EXPLANATION
+_________________________________________________________________
+ Instruction Set used in simplified instructional Computer (SIC) |
+                                                                 |                  
+_________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Instruction Set used in simplified instructional Computer (SIC)
+                                                                                        
+2) Definition of Instruction Set used in simplified instructional Computer (SIC) ?
+----------------------------------------------------------------------------------
+*
+ 
+3) What is Instruction Set used in simplified instructional Computer (SIC) About ?
+----------------------------------------------------------------------------------
+*
+*
+
+4) What does Instruction Set used in simplified instructional Computer (SIC) Do ?
+---------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Instruction Set used in simplified instructional Computer (SIC) :
+-------------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Instruction Set used in simplified instructional Computer (SIC) :
+----------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Instruction Set used in simplified instructional Computer (SIC) : 
+--------------------------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+15) <<<<<<<<<<<<<<<<<< INSTRUCTION SET USED IN SIC/XE >>>>>>>>>>>>>>>>>
+
++ MNEMONIC , OPERAND, OPCODE, EXPLANATION
+________________________________________________
+ Instruction Set used in SIC/XE                 |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Instruction Set used in SIC/XE 
+                                                                                        
+2) Definition of Instruction Set used in SIC/XE ?
+-------------------------------------------------
+*
+ 
+3) What is Instruction Set used in SIC/XE About ?
+-------------------------------------------------
+*
+*
+
+4) What does Instruction Set used in SIC/XE Do ?
+------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Instruction Set used in SIC/XE :
+----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Instruction Set used in SIC/XE :
+-------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Instruction Set used in SIC/XE :
+-----------------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+16) <<<<<<<<<<<<<<<< RISC and CISC >>>>>>>>>>>>>>>>>
+
+ + Reduced Instruction Set Architecture (RISC) –
+ + Complex Instruction Set Architecture (CISC) –
+ + Characteristic of RISC – 
+ + Characteristic of CISC – 
+ + CISC Approach -
+ + RISC Approach -
+ + Difference Between RISC & CISC 
+________________________________________________
+ RISC and CISC                                  |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* RISC and CISC
+                                                                                        
+2) Definition of RISC and CISC ?
+--------------------------------
+*
+ 
+3) What is RISC and CISC About ?
+--------------------------------
+*
+*
+
+4) What does RISC and CISC Do ?
+-------------------------------
+*
+*
+
+5) Advantages/Benefits of RISC and CISC :
+-----------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of RISC and CISC :
+--------------------------------------------
+*
+*
+*  
+
+7) Examples of RISC and CISC :
+------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+17) <<<<<<<<<<<<<< RISC and CISC | Set 2 >>>>>>>>>>>>>>>
+
+ + Difference between RISC and CISC processor | 5
+ + Characteristics of a microprocessor:
+ + Classification of Microprocessors: 
+
+________________________________________________
+ RISC and CISC | Set 2                          |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* RISC and CISC | Set 2
+                                                                                        
+2) Definition of RISC and CISC | Set 2 ?
+----------------------------------------
+*
+ 
+3) What is RISC and CISC | Set 2 About ?
+----------------------------------------
+*
+*
+
+4) What does RISC and CISC | Set 2 Do ?
+---------------------------------------
+*
+*
+
+5) Advantages/Benefits of RISC and CISC | Set 2 :
+-------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of RISC and CISC | Set 2 :
+----------------------------------------------------
+*
+*
+*  
+
+7) Examples of RISC and CISC | Set 2 :
+--------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+18) <<<<<<<<<<<<< VECTOR PROCESSOR CLASSIFICATION >>>>>>>>>>>>>>>
+
++ Memory to memory architecture –
++ Register to register architecture –
+________________________________________________
+ Vector Processor Classification                |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Vector Processor Classification
+                                                                                        
+2) Definition of Vector Processor Classification ?
+--------------------------------------------------
+*
+ 
+3) What is Vector Processor Classification About ?
+--------------------------------------------------
+*
+*
+
+4) What does Vector Processor Classification Do ?
+-------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Vector Processor Classification :
+-----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Vector Processor Classification :
+--------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Vector Processor Classification :
+------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+19) <<<<<<<<<<<<<<< ESSENTIAL REGISTERS for INSTRUCTION EXECUTION >>>>>>>>>>>>>>>>
+
++ Program Counter (PC) :
++ Instruction Register (IR) : 
++ Memory Buffer (or Data) Register (MBR or MDR) : 
++ Memory Address Register (MAR) : 
+________________________________________________
+ Essential Registers for Instruction Execution  |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Essential Registers for Instruction Execution
+                                                                                        
+2) Definition of Essential Registers for Instruction Execution ?
+----------------------------------------------------------------
+*
+ 
+3) What is Essential Registers for Instruction Execution About ?
+----------------------------------------------------------------
+*
+*
+
+4) What does Essential Registers for Instruction Execution Do ?
+---------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Essential Registers for Instruction Execution :
+-------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Essential Registers for Instruction Execution :
+----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Essential Registers for Instruction Execution :
+--------------------------------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+20) <<<<<<<<<<<<<<< SINGLE ACCUMULATOR based CPU ORGANIZATION >>>>>>>>>>>>>>>>
+
++ 1. Data transfer operation –
++ 2. ALU operation – 
+________________________________________________
+ Single Accumulator based CPU organization      |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Single Accumulator based CPU organization
+                                                                                        
+2) Definition of Single Accumulator based CPU organization ?
+------------------------------------------------------------
+*
+ 
+3) What is Single Accumulator based CPU organization About ?
+------------------------------------------------------------
+*
+*
+
+4) What does Single Accumulator based CPU organization Do ?
+-----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Single Accumulator based CPU organization :
+---------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Single Accumulator based CPU organization :
+------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Single Accumulator based CPU organization :
+----------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+21) <<<<<<<<<<<<<< STACK based CPU ORGANIZATION >>>>>>>>>>>>>>>
+
++ Push
++ Pop
++ The advantages of Stack-based CPU organization –
++ The disadvantages of Stack-based CPU organization –
+________________________________________________
+ Stack based CPU Organization                   |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Stack based CPU Organization
+                                                                                        
+2) Definition of Stack based CPU Organization ?
+-----------------------------------------------
+*
+ 
+3) What is Stack based CPU Organization About ?
+---------------------------------------------
+*
+*
+
+4) What does Regulating the Sending Rate Do ?
+---------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Regulating the Sending Rate :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Regulating the Sending Rate :
+----------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Regulating the Sending Rate :
+--------------------------------------------
+*
+*
+________________________________________________________________________________
+________________________________________________________________________________
+
+22) <<<<<<<<<<<<<<< GENERAL REGISTER based CPU ORGANIZATION >>>>>>>>>>>>>>>>>>
+
++ The advantages of General register-based CPU organization –
++ The disadvantages of General register based CPU organization –
++ General register CPU organization of two types:
+________________________________________________
+ General Register based CPU Organization        |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* General Register based CPU Organization
+                                                                                        
+2) Definition of General Register based CPU Organization ?
+----------------------------------------------------------
+*
+ 
+3) What is General Register based CPU Organization About ?
+----------------------------------------------------------
+*
+*
+
+4) What do General Register based CPU Organization Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of General Register based CPU Organization :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of General Register based CPU Organization :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of General Register based CPU Organization :
+--------------------------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+23) <<<<<<<<<<<<<<< DATA TRANSFER INSTRUCTIONS in AVR MICROCONTROLLER >>>>>>>>>>>>>>>>>>
+
++ These instructions can be used to transfer data from :
+                                                       Register to Register
+                                                       Register to Memory
+                                                       Memory to Register
+                                                       Constant to Register
+___________________________________________________
+ Data Transfer instructions in AVR microcontroller |
+                                                   |                  
+___________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Data Transfer instructions in AVR microcontroller 
+                                                                                        
+2) Definition of Data Transfer instructions in AVR microcontroller ?
+--------------------------------------------------------------------
+*
+ 
+3) What is Data Transfer instructions in AVR microcontroller About ?
+--------------------------------------------------------------------
+*
+*
+
+4) What does Data Transfer instructions in AVR microcontroller Do ?
+-------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Data Transfer instructions in AVR microcontroller :
+-----------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Data Transfer instructions in AVR microcontroller :
+--------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Data Transfer instructions in AVR microcontroller :
+------------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+24) <<<<<<<<<<<< ARITHMETIC INSTRUCTIONS in AVR MICROCONTROLLER >>>>>>>>>>>>>
+________________________________________________
+ Arithmetic instructions in AVR microcontroller |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Arithmetic instructions in AVR microcontroller
+                                                                                        
+2) Definition of Arithmetic instructions in AVR microcontroller ?
+-----------------------------------------------------------------
+*
+ 
+3) What is Arithmetic instructions in AVR microcontroller About ?
+-----------------------------------------------------------------
+*
+*
+
+4) What does Arithmetic instructions in AVR microcontroller Do ?
+----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Arithmetic instructions in AVR microcontroller :
+--------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Arithmetic instructions in AVR microcontroller :
+-----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Arithmetic instructions in AVR microcontroller :
+---------------------------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+25) <<<<<<<<<<<<<<< CONDITIONAL BRANCH INSTRUCTIONS in AVR MICROCONTROLLER >>>>>>>>>>>>>>>>
+
++ REGISTERS in the AVR Micro-Controller :
+                                         Status Register (SReg) :
+                                         C – Carry Flag :
+                                         Z - Zero Flag :
+                                         N - Negative Flag :
+                                         V - Overflow Flag :
+                                         S - Sign Flag :
+                                         H - Half Carry Flag :
+________________________________________________________
+ Conditional Branch Instructions in AVR Microcontroller |
+                                                        |                  
+________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Conditional Branch Instructions in AVR Microcontroller
+                                                                                        
+2) Definition of Conditional Branch Instructions in AVR Microcontroller ?
+-------------------------------------------------------------------------
+*
+ 
+3) What is Conditional Branch Instructions in AVR Microcontroller About ?
+-------------------------------------------------------------------------
+*
+*
+
+4) What does Conditional Branch Instructions in AVR Microcontroller Do ?
+------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Conditional Branch Instructions in AVR Microcontroller :
+----------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Conditional Branch Instructions in AVR Microcontroller :
+-------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Conditional Branch Instructions in AVR Microcontroller :
+-----------------------------------------------------------------------
+*
+*
+
+___________________________________________________________________________________
+___________________________________________________________________________________
+
+26) <<<<<<<<<<<<< CALL INSTRUCTIONS and STACK in AVR MICROCONTROLLER >>>>>>>>>>>>>
+
++ 4 Instructions for the Call SubRoutine :
+                                          CALL (call subroutine)
+                                          RCALL (relative call subroutine)
+                                          ICALL (indirect call to Z)
+                                          EICALL (extended indirect call to Z)
++ Stack :
+         Pushing onto the stack :
+         Popping from the stack : 
+         Initializing stack pointers :
+         CALL instruction, RET instruction and the role of stack :
+____________________________________________________
+ CALL Instructions and Stack in AVR Microcontroller |
+                                                    |                  
+____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* CALL Instructions and Stack in AVR Microcontroller
+                                                                                        
+2) Definition of CALL Instructions and Stack in AVR Microcontroller ?
+---------------------------------------------------------------------
+*
+ 
+3) What is CALL Instructions and Stack in AVR Microcontroller About ?
+---------------------------------------------------------------------
+*
+*
+
+4) What does CALL Instructions and Stack in AVR Microcontroller Do ?
+--------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of CALL Instructions and Stack in AVR Microcontroller :
+------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of CALL Instructions and Stack in AVR Microcontroller :
+---------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of CALL Instructions and Stack in AVR Microcontroller :
+-------------------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+27) <<<<<<<<<<<<<< BRANCH INSTRUCTIONS in AVR MICROCONTROLLER >>>>>>>>>>>>>>>>
+
++ Looping in AVR :
++ Conditional Branch Instructions :
++ Loop using BRNE :
++ Unconditional Branch Instructions : 
+                                     JMP (long jump) – 
+                                     RJMP (relative jump) –
+                                     IJMP (indirect jump) – 
+________________________________________________
+ Branch Instructions in AVR Microcontroller     |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+------------------------
+* Branch Instructions in AVR Microcontroller
+                                                                                        
+2) Definition of Branch Instructions in AVR Microcontroller ?
+-------------------------------------------------------------
+*
+ 
+3) What is Branch Instructions in AVR Microcontroller About ?
+-------------------------------------------------------------
+*
+*
+
+4) What does Branch Instructions in AVR Microcontroller Do ?
+------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Branch Instructions in AVR Microcontroller :
+----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Branch Instructions in AVR Microcontroller :
+-------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Branch Instructions in AVR Microcontroller :
+-----------------------------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+28) <<<<<<<<<<<<<<< LOGICAL INSTRUCTIONS in AVR MICROCONTROLLER >>>>>>>>>>>>>>>
+
++ Table of Logical Instructions :
+_________________________________________________
+ Logical Instructions in AVR Microcontroller     |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+---------------------------
+* Logical Instructions in AVR Microcontroller
+                                                                                        
+2) Definition of Logical Instructions in AVR Microcontroller ?
+--------------------------------------------------------------
+*
+ 
+3) What is Logical Instructions in AVR Microcontroller About ?
+--------------------------------------------------------------
+*
+*
+
+4) What does Logical Instructions in AVR Microcontroller Do ?
+-------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Logical Instructions in AVR Microcontroller :
+-----------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Logical Instructions in AVR Microcontroller :
+--------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Logical Instructions in AVR Microcontroller :
+------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+29) <<<<<<<<<<<<<<<< DATA MANIPULATION INSTRUCTIONS >>>>>>>>>>>>>>>>
+                     DATA MANIPULATION INSTRUCTIONS In Computer Organization
+
++ Arithmetic Instructions :
+                           Typical Arithmetic Instructions -
+
++ Logical and Bit Manipulation Instructions :
+                                             Typical Logical and Bit Manipulation Instructions –
+
++ Shift Instructions 
+________________________________________________
+ Data Manipulation Instructions                 |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Data Manipulation Instructions
+                                                                                        
+2) Definition of Data Manipulation Instructions ?
+-------------------------------------------------
+*
+ 
+3) What is Data Manipulation Instructions About ?
+-------------------------------------------------
+*
+*
+
+4) What does Data Manipulation Instructions Do ?
+------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Data Manipulation Instructions :
+----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Data Manipulation Instructions :
+-------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Data Manipulation Instructions :
+-----------------------------------------------
+*
+*
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+30) <<<<<<<<<<<< MACHINE CONTROL INSTRUCTION >>>>>>>>>>>>
+                 MACHINE CONTROL INSTRUCTIONS In Microprocessor
+
++ NOP (No operation) – 
++ HLT (Halt and enter wait state) –
+
++ DI (Disable interrupts) –
++ EI (Enable interrupts) – 
+
++ SIM (Set interrupt mask) – 
++ RIM (Reset interrupt mask) – 
+________________________________________________
+ Machine Control Instruction                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Machine Control Instruction
+                                                                                        
+2) Definition of Machine Control Instruction ?
+----------------------------------------------
+*
+ 
+3) What is Machine Control Instruction About ?
+----------------------------------------------
+*
+*
+
+4) What does Machine Control Instruction Do ?
+---------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Machine Control Instruction :
+-------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Machine Control Instruction :
+----------------------------------------------------------
+* 
+* 
+*  
+
+7) Examples of Machine Control Instruction :
+--------------------------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+31) <<<<<<<<<< VERY LONG INSTRUCTION WORD (VLIW) ARCHITECTURE >>>>>>>>>>>
+Or Also Called ->> VLIW Machines
+
++ Features :
++ Advantages 
++ Disadvantages 
+________________________________________________
+ Very Long Instruction Word (VLIW) Architecture |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Very Long Instruction Word (VLIW) Architecture
+                                                                                        
+2) Definition of Very Long Instruction Word (VLIW) Architecture ?
+-----------------------------------------------------------------
+*
+ 
+3) What is Very Long Instruction Word (VLIW) Architecture About ?
+-----------------------------------------------------------------
+*
+*
+
+4) What does Very Long Instruction Word (VLIW) Architecture Do ?
+----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Very Long Instruction Word (VLIW) Architecture :
+--------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Very Long Instruction Word (VLIW) Architecture :
+-----------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Very Long Instruction Word (VLIW) Architecture :
+---------------------------------------------------------------
+*  
+*  
+
+______________________________________________________________________________________
+

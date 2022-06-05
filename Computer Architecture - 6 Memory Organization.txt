@@ -1,0 +1,1070 @@
+
+      MEMORY ORGANIZATION :
+________________________________________________________________________________________________
+------------------------------------------------------------------------------------------------
+
+1) Introduction to memory and memory units
+2) Memory Hierarchy Design and its Characteristics
+3) Difference between Byte Addressable Memory and Word Addressable Memory
+4) Difference between Simultaneous and Hierarchical Access Memory Organisations
+5) Register Allocation
+6) Cache Memory
+7) Cache Organization | Set 1 (Introduction)
+8) Multilevel Cache Organisation
+9) Locality and Cache friendly code
+10) Locality of Reference and Cache Operation
+11) Amdahl’s law and its proof
+12) Subroutine, Subroutine nesting and Stack memory
+13) RAM vs ROM
+14) What’s difference between CPU Cache and TLB?
+15) Different Types of RAM
+16) Types of computer memory (RAM and ROM)
+17) Secondary memory – Hard disk drive
+18) Introduction to solid-state drive (SSD)
+19) Read and Write operations in memory
+20) 2D and 2.5D Memory organization
+________________________________________________________________________________________________
+
+1) <<<<<<<<< INTRODUCTION to MEMORY and MEMORY UNITS >>>>>>>>>>
+
+________________________________________________
+ Introduction to memory and memory units        |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Introduction to memory and memory units 
+                                                                                        
+2) Definition of Introduction to memory and memory units ?
+----------------------------------------------------------
+*
+ 
+3) What is Introduction to memory and memory units About ?
+----------------------------------------------------------
+*
+*
+
+4) What does Introduction to memory and memory units Do ?
+---------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Introduction to memory and memory units :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Introduction to memory and memory units :
+----------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Introduction to memory and memory units :
+--------------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+2) <<<<<<<<< MEMORY HIERARCHY DESIGN and It's CHARACTERISTICS >>>>>>>>>>>>
+
++ Memory Hierarchy Design is divided into 2 main types :
+       * External Memory or Secondary Memory –
+       * Internal Memory or Primary Memory –                                          + Characteristics of Memory Hierarchy Design : 
+       * Capacity:
+       * Access Time:
+       * Performance:
+       * Cost per bit:         
+__________________________________________________
+ Memory Hierarchy Design and its Characteristics  |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Memory Hierarchy Design and its Characteristics.
+                                                                                        
+2) Definition of Memory Hierarchy Design and its Characteristics ?
+------------------------------------------------------------------
+*
+ 
+3) What is Memory Hierarchy Design and its Characteristics About ?
+------------------------------------------------------------------
+*
+*
+
+4) What do Memory Hierarchy Design and its Characteristics Do ?
+---------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Memory Hierarchy Design and its Characteristics :
+---------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Memory Hierarchy Design and its Characteristics :
+------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Memory Hierarchy Design and its Characteristics :
+----------------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+3) <<<<<<<< DIFFERENCE BETWEEN BYTE ADDRESSABLE MEMORY and WORD ADDRESSABLE MEMORY >>>>>>>>>>>>>>
+
++ Memory 
++ Byte Addressable Memory
++ Word Addressable Memory
+
++ Memory Chip Representation :
+________________________________________________________________________
+ Difference between Byte Addressable Memory and Word Addressable Memory |
+                                                                        |                  
+________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Difference between Byte Addressable Memory and Word Addressable Memory
+                                                                                        
+2) Definition of Difference between Byte Addressable Memory and Word Addressable Memory ?
+-----------------------------------------------------------------------------------------
+*
+ 
+3) What is Difference between Byte Addressable Memory and Word Addressable Memory About ?
+-----------------------------------------------------------------------------------------
+*
+*
+
+4) What does Difference between Byte Addressable Memory and Word Addressable Memory Do ?
+----------------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Difference between Byte Addressable Memory and Word Addressable Memory :
+------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Difference between Byte Addressable Memory and Word Addressable Memory :
+---------------------------------------------------
+*
+*
+*  
+
+7) Examples of Difference between Byte Addressable Memory and Word Addressable Memory :
+---------------------------------------------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+4) <<<<<<<< DIFFERENCE BETWEEN SIMULTANEOUS and HIERARCHICAL ACCESS MEMORY ORGANISATIONS >>>>>>>>
+
++ Simultaneous Access Memory Organisation
++ Hierarchical Access Memory Organisation
+______________________________________________________________________________
+ Difference between Simultaneous and Hierarchical Access Memory Organisations |
+                                                                              |                  
+______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Difference between Simultaneous and Hierarchical Access Memory Organisations
+                                                                                        
+2) Definition of Difference between Simultaneous and Hierarchical Access Memory Organisations ?
+-----------------------------------------------------------------------------------------------
+*
+ 
+3) What is Difference between Simultaneous and Hierarchical Access Memory Organisations About ?
+-----------------------------------------------------------------------------------------------
+*
+*
+
+4) What do Difference between Simultaneous and Hierarchical Access Memory Organisations Do ?
+--------------------------------------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Difference between Simultaneous and Hierarchical Access Memory Organisations :
+----------------------------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Difference between Simultaneous and Hierarchical Access Memory Organisations :
+-------------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Difference between Simultaneous and Hierarchical Access Memory Organisations :
+---------------------------------------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+5) <<<<<<< REGISTER ALLOCATION >>>>>>> 
+           REGISTER ALLOCATIONS in Code Generation 
+
+             * Allocation vs Assignment: 
+
++ Allocation - 
+              Reg. to Reg. Model: 
+              Mem. to Mem. Model:
+ 
++ Assignment
++ General register allocation is an NP-complete problem:
++ Local Register Allocation And Assignment:
++ Algorithm: 
++ Moving beyond single Blocks: 
++ Global Register Allocation and Assignment:
++ Discovering Global Live Ranges:
++ Estimating Global Spill Cost:
+                               * Negative Spill Cost:
+                               * Infinite Spill Cost:
+
++ Interference and Interference Graph:  
++ Building an Allocator:
++ Top-Down Colouring: 
++ Chaitin’s Idea:
++ Coalescing copies to reduce degree:
++ Comparing Top-Down and Bottom-Up allocator:  
+__________________________________________________
+ Register Allocation                              |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Register Allocation
+                                                                                        
+2) Definition of Register Allocation ?
+--------------------------------------
+*
+ 
+3) What is Register Allocation About ?
+--------------------------------------
+*
+
+4) What do Register Allocation Do ?
+-----------------------------------
+*
+*
+
+5) Advantages/Benefits of Register Allocation :
+-----------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Register Allocation :
+--------------------------------------------------
+*
+*
+*  
+
+7) Examples of Register Allocation :
+------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+6) <<<<<<<<<<<< CACHE MEMORY >>>>>>>>>>>>>>>
+
++ Need of cache memory
++ How does cache work?
++ Cache performance
++ Types of Cache Memory :
+                         * L1 or Level 1 Cache:
+                         * L2 or Level 2 Cache:
+                         * L3 or Level 3 Cache:
++ Cache vs RAM
+____________________________________________________________
+ Cache Memory                                               |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Cache Memory
+                                                                                        
+2) Definition of Cache Memory ?
+-------------------------------
+*
+ 
+3) What is Cache Memory About ?
+-------------------------------
+*
+*
+
+4) What does Cache Memory Do ?
+------------------------------
+*
+*
+
+5) Advantages/Benefits of Cache Memory :
+----------------------------------------
+*
+*
+*
+
+6) Disadvantages of Cache Memory :
+----------------------------------
+*
+*
+*  
+
+7) Examples of Cache Memory :
+-----------------------------
+*
+*
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+7) <<<<<<< CACHE ORGANIZATION | SET 1 (INTRODUCTION) >>>>>>>
+
++ A Simple Solution:
++ Problems With Simple Solution:
++ Solution is Tag:
++ What is a Cache Block?
++ Direct Mapped Cache and Following Problems :
+     * Solution to above problem – Associativity
+_____________________________________________________
+ Cache Organization | Set 1 (Introduction)           |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Cache Organization | Set 1 (Introduction)
+                                                                                        
+2) Definition of Cache Organization | Set 1 (Introduction) ?
+------------------------------------------------------------
+*
+ 
+3) What is Cache Organization | Set 1 (Introduction) About ?
+------------------------------------------------------------
+*
+*
+
+4) What does Cache Organization | Set 1 (Introduction) Do ?
+-----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Cache Organization | Set 1 (Introduction) :
+---------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Cache Organization | Set 1 (Introduction) :
+------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Cache Organization | Set 1 (Introduction) :
+----------------------------------------------------------
+*
+*
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+8) <<<<<<<<<<<< MULTILEVEL CACHE ORGANISATION >>>>>>>>>>>>>
+
++ Case 1 : System Design without Cache Memory
++ Case 2 : System Design with Cache Memory  
++ Case 3 : System Design with Multilevel Cache Memory 
+_____________________________________________________
+ Multilevel Cache Organisation                       |
+                                                     |                  
+_____________________________________________________|
+            |
+            |
+1) What's the Sub-Heading ?
+---------------------------
+* Multilevel Cache Organisation
+                                                                                        
+2) Definition of Multilevel Cache Organisation ?
+------------------------------------------------
+*
+ 
+3) What is Multilevel Cache Organisation About ?
+------------------------------------------------
+*
+*
+
+4) What does Multilevel Cache Organisation Do ?
+-----------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Multilevel Cache Organisation :
+---------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Multilevel Cache Organisation :
+------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Multilevel Cache Organisation :
+----------------------------------------------
+*
+*
+
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+9) <<<<<<<<<<< LOCALITY and CACHE FRIENDLY CODE >>>>>>>>>>
+   <<<<<<<< Locality and Cache Friendly Code >>>>>>>>>
+
++ Types of Locality :
+                     * Temporal Locality –
+                     * Spatial Locality –  
+                     * Importance of Locality –
+                     * Cache Friendly Code –
++ Basic Approach how a code be Cache Friendly :
+                                               Frequently used cases need to be faster: 
+                                               Multiple loops:
+                                                       * Example-1:
+                                                       * Example-2:
+                                                       * Conclusion –
+_________________________________________________
+ Locality and Cache friendly code                |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Locality and Cache friendly code
+                                                                                        
+2) Definition of Locality and Cache friendly code ?
+---------------------------------------------------
+*
+ 
+3) What is Locality and Cache friendly code About ?
+---------------------------------------------------
+*
+*
+
+4) What does Locality and Cache friendly code Do ?
+--------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Locality and Cache friendly code :
+------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Locality and Cache friendly code :
+---------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Locality and Cache friendly code :
+-------------------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+10) <<<<< LOCALITY of REFERENCE and CACHE OPERATION >>>>>
+
++ Cache Operation:
+                  Temporal Locality –
+                  Spatial Locality –
++ Cache Performance:
+________________________________________________
+ Locality of Reference and Cache Operation      |
+                                                |                   
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Locality of Reference and Cache Operation
+                                                                                        
+2) Definition of Locality of Reference and Cache Operation ?
+------------------------------------------------------------
+*
+ 
+3) What is Locality of Reference and Cache Operation About ?
+------------------------------------------------------------
+*
+*
+
+4) What does Locality of Reference and Cache Operation Do ?
+-----------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Locality of Reference and Cache Operation :
+---------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Locality of Reference and Cache Operation :
+------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Locality of Reference and Cache Operation :
+----------------------------------------------------------
+*
+*
+_______________________________________________________________________________
+_______________________________________________________________________________
+
+11) <<<<<< AMDAHL's LAW and Its PROOF >>>>>>>
+      <<<<  Computer Organization >>>>
+
++ Speedup-
++ Speedup = Pe/Pw & Speedup = Ew/Ee
+
++ Fraction enhanced –
++ Speedup enhanced –
++ Proof :-
+________________________________________________
+ Amdahl’s law and its proof                     |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Amdahl’s law and its proof
+                                                                                        
+2) Definition of Amdahl’s law and its proof ?
+---------------------------------------------
+*
+ 
+3) What is Amdahl’s law and its proof About ?
+---------------------------------------------
+*
+*
+
+4) What does Amdahl’s law and its proof Do ?
+--------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Amdahl’s law and its proof :
+------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Amdahl’s law and its proof :
+---------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Amdahl’s law and its proof :
+-------------------------------------------
+*
+*
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+12) <<<<<<<<< SUBROUTINE, SUBROUTINE NESTING and STACK MEMORY >>>>>>>>
+
++ 1. Subroutine –
++ 2. Subroutine Nesting –
++ 3. Stack memory – 
+_________________________________________________
+ Subroutine, Subroutine nesting and Stack memory |
+                                                 |                  
+_________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Subroutine, Subroutine nesting and Stack memory
+                                                                                        
+2) Definition of Subroutine, Subroutine nesting and Stack memory ?
+------------------------------------------------------------------
+*
+ 
+3) What is Subroutine, Subroutine nesting and Stack memory About ?
+------------------------------------------------------------------
+*
+*
+
+4) What does Subroutine, Subroutine nesting and Stack memory Do ?
+-----------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Subroutine, Subroutine nesting and Stack memory :
+---------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Subroutine, Subroutine nesting and Stack memory :
+------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Subroutine, Subroutine nesting and Stack memory :
+----------------------------------------------------------------
+*
+*
+____________________________________________________________________________________
+____________________________________________________________________________________
+
+13) <<<<<<<<<< RAM vs ROM >>>>>>>>>>
+
++ RAM
++ ROM
++ Types of RAM :
+                * Static RAM
+                * Dynamic RAM
++ Types of ROM :
+                * Programmable ROM
+                * Erasable Programmable ROM
+                * Electrically Erasable Programmable ROM
+                * Mask ROM
+________________________________________________
+  RAM vs ROM                                    |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* RAM vs ROM
+                                                                                        
+2) Definition of RAM vs ROM ?
+-----------------------------
+*
+ 
+3) What is RAM vs ROM About ?
+-----------------------------
+*
+*
+
+4) What does RAM vs ROM Do ?
+----------------------------
+*
+*
+
+5) Advantages/Benefits of RAM vs ROM :
+--------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of RAM vs ROM :
+-----------------------------------------
+*
+*
+*  
+
+7) Examples of RAM vs ROM :
+---------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+14) <<<<<<<<<< WHAT's DIFFERENCE BETWEEN CPU CACHE and TLB ? >>>>>>>>>>>>
+
++ CPU Cache
++ TLB
+________________________________________________
+ What’s difference between CPU Cache and TLB?   |
+                                                |                  
+________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* What’s difference between CPU Cache and TLB?
+                                                                                        
+2) Definition of What’s difference between CPU Cache and TLB? ?
+---------------------------------------------------------------
+*
+ 
+3) What is What’s difference between CPU Cache and TLB? About ?
+---------------------------------------------------------------
+*
+*
+
+4) What does What’s difference between CPU Cache and TLB? Do ?
+--------------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of What’s difference between CPU Cache and TLB? :
+------------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of What’s difference between CPU Cache and TLB? :
+---------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of What’s difference between CPU Cache and TLB :
+------------------------------------------------------------
+*
+*
+_____________________________________________________________________________________________
+_____________________________________________________________________________________________
+
+15) <<<<<< DIFFERENT TYPES of RAM >>>>>>>
+
++ SRAM(Static RAM) :
+                    SRAM Memory Cell:
+                                     * Read Operation
+                                     * Write Operation
++ DRAM(Dynamic RAM) :
+                     DRAM Memory Cell:
+
++ Types of DRAM : 
+                 * Asynchronous DRAM (ADRAM) –
+                 * Synchronous DRAM (SDRAM) –
+                 * Double-Data-Rate SDRAM (DDR SDRAM) –
+                 * Rambus DRAM (RDRAM) –
+                 * Cache DRAM (CDRAM) –
+
++ Difference between SRAM and DRAM :
+                                    SRAM
+                                    DRAM
+________________________________________________
+ Different Types of RAM                         |
+                                                |                  
+________________________________________________|
+            |
+            |
+
+1) What's the Heading ?
+-----------------------
+* Different Types of RAM 
+                                                                                        
+2) Definition of Different Types of RAM ?
+-----------------------------------------
+*
+ 
+3) What is Different Types of RAM About ?
+-----------------------------------------
+*
+*
+
+4) What does Different Types of RAM Do ?
+----------------------------------------
+*
+*
+
+5) Advantages/Benefits of Different Types of RAM :
+--------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Different Types of RAM :
+-----------------------------------------------------
+*
+*
+*  
+
+7) Examples of Different Types of RAM :
+---------------------------------------
+*
+*
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+16) <<<<<<<<< TYPES of COMPUTER MEMORY (RAM and ROM) >>>>>>>>
+
++ Random Access Memory (RAM) –
++ Read-Only Memory (ROM)
+
++ Types of Read-Only Memory (ROM) :
+                                   *PROM (Programmable read-only memory)
+                                   * EPROM (Erasable Programmable read-only memory)
+                                   * EEPROM (Electrically erasable programmable read-only memory)
+                                   * MROM(Mask ROM)
+__________________________________________________
+ Types of computer memory (RAM and ROM)           |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Types of computer memory (RAM and ROM).
+                                                                                        
+2) Definition of Types of computer memory (RAM and ROM) ?
+---------------------------------------------------------
+*
+ 
+3) What is Types of computer memory (RAM and ROM) About ?
+---------------------------------------------------------
+*
+*
+
+4) What do Types of computer memory (RAM and ROM) Do ?
+------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Types of computer memory (RAM and ROM) :
+------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Types of computer memory (RAM and ROM) :
+---------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Types of computer memory (RAM and ROM) :
+-------------------------------------------------------
+*
+* 
+
+________________________________________________________________________________
+________________________________________________________________________________
+
+17) <<<<<<<< SECONDARY MEMORY - HARD DISK DRIVE >>>>>>>>>
+
++ Important Terms :
+                   * Seek time
+                   * Rotational latency
+                   * Data transfer time
+                   * Controller time
+                   * Average Access time
+________________________________________________________________________
+ Secondary memory – Hard disk drive                                     |
+                                                                        |             ________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Secondary memory – Hard disk drive
+                                                                                        
+2) Definition of Secondary memory – Hard disk drive ?
+-----------------------------------------------------
+*
+ 
+3) What is Secondary memory – Hard disk drive About ?
+-----------------------------------------------------
+*
+*
+
+4) What does Secondary memory – Hard disk drive Do ?
+----------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Secondary memory – Hard disk drive :
+--------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Secondary memory – Hard disk drive :
+-----------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Secondary memory – Hard disk drive :
+---------------------------------------------------
+*
+* 
+
+______________________________________________________________________________________
+______________________________________________________________________________________
+
+18) <<<<<<<< INTRODUCTION to SOLID-STATE DRIVE (SSD) >>>>>>>>
+
+______________________________________________________________________________
+ Introduction to solid-state drive (SSD)                                      |
+                                                                              |                  
+______________________________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Introduction to solid-state drive (SSD)
+                                                                                        
+2) Definition of Introduction to solid-state drive (SSD) ?
+----------------------------------------------------------
+*
+ 
+3) What is Introduction to solid-state drive (SSD) About ?
+----------------------------------------------------------
+*
+*
+
+4) What do Introduction to solid-state drive (SSD) Do ?
+-------------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Introduction to solid-state drive (SSD) :
+-------------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Difference between Simultaneous and Hierarchical Access Memory Organisations :
+-------------------------------------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Difference between Simultaneous and Hierarchical Access Memory Organisations :
+---------------------------------------------------------------------------------------------
+*
+*   
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+19) <<<<<<<<<<<< READ and WRITE OPERATIONS in MEMORY >>>>>>>>>>>>
+
++ Memory Address Register (MAR)
++ Memory Data Register (MDR)
++       * Memory Read Operation:
++       * Memory Write Operation:
+__________________________________________________
+ Read and Write operations in memory              |
+                                                  |                  
+__________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* Read and Write operations in memory
+                                                                                        
+2) Definition of Read and Write operations in memory ?
+------------------------------------------------------
+*
+ 
+3) What is Read and Write operations in memory About ?
+------------------------------------------------------
+*
+
+4) What do Read and Write operations in memory Do ?
+---------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of Read and Write operations in memory :
+---------------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages/Drawback of Read and Write operations in memory :
+------------------------------------------------------------------
+*
+*
+*  
+
+7) Examples of Read and Write operations in memory :
+----------------------------------------------------
+*
+*
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+
+20) <<<<<<<<<<<< 2D and 2.5D MEMORY ORGANIZATION >>>>>>>>>>
+
++ 2D Memory organization – 
++ 2.5D Memory organization –
++ Read and Write Operations –
++ Comparison between 2D & 2.5D Organizations – 
+____________________________________________________________
+ 2D and 2.5D Memory organization                            |
+                                                            |                  
+____________________________________________________________|
+            |
+            |
+1) What's the Heading ?
+-----------------------
+* 2D and 2.5D Memory organization
+                                                                                        
+2) Definition of 2D and 2.5D Memory organization ?
+--------------------------------------------------
+*
+ 
+3) What is 2D and 2.5D Memory organization About ?
+--------------------------------------------------
+*
+*
+
+4) What does 2D and 2.5D Memory organization Do ?
+-------------------------------------------------
+*
+*
+
+5) Advantages/Benefits of 2D and 2.5D Memory organization :
+-----------------------------------------------------------
+*
+*
+*
+
+6) Disadvantages of 2D and 2.5D Memory organization :
+-----------------------------------------------------
+*
+*
+*  
+
+7) Examples of 2D and 2.5D Memory organization :
+------------------------------------------------
+*
+*
+______________________________________________________________________________________________
+______________________________________________________________________________________________
+
+
+
+
+
